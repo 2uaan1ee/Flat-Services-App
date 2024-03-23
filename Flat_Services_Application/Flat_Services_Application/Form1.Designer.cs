@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.sidePanel = new System.Windows.Forms.Panel();
-            this.headPanel = new System.Windows.Forms.Panel();
             this.logoPanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.headPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.sidePanel.SuspendLayout();
             this.logoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -41,6 +42,7 @@
             // sidePanel
             // 
             this.sidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.sidePanel.Controls.Add(this.button1);
             this.sidePanel.Controls.Add(this.logoPanel);
             this.sidePanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidePanel.Location = new System.Drawing.Point(0, 0);
@@ -48,15 +50,6 @@
             this.sidePanel.Size = new System.Drawing.Size(444, 904);
             this.sidePanel.TabIndex = 0;
             this.sidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.sidePanel_Paint);
-            // 
-            // headPanel
-            // 
-            this.headPanel.BackColor = System.Drawing.Color.White;
-            this.headPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headPanel.Location = new System.Drawing.Point(444, 0);
-            this.headPanel.Name = "headPanel";
-            this.headPanel.Size = new System.Drawing.Size(1200, 131);
-            this.headPanel.TabIndex = 1;
             // 
             // logoPanel
             // 
@@ -68,6 +61,17 @@
             this.logoPanel.Name = "logoPanel";
             this.logoPanel.Size = new System.Drawing.Size(444, 131);
             this.logoPanel.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Flat_Services_Application.Properties.Resources.Icon;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(118, 91);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -81,16 +85,24 @@
             this.label1.Text = "Flat Services";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox1
+            // headPanel
             // 
-            this.pictureBox1.Image = global::Flat_Services_Application.Properties.Resources.Icon;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 91);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.headPanel.BackColor = System.Drawing.Color.White;
+            this.headPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.headPanel.Location = new System.Drawing.Point(444, 0);
+            this.headPanel.Name = "headPanel";
+            this.headPanel.Size = new System.Drawing.Size(1200, 131);
+            this.headPanel.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 137);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(438, 99);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ternantHome
             // 
@@ -119,6 +131,7 @@
         private System.Windows.Forms.Panel logoPanel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
