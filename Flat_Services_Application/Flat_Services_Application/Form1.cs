@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Flat_Services_Application
 {
-    public partial class Form1 : Form
+    public partial class ternantHome : Form
     {
-        public Form1()
+        public ternantHome()
         {
             InitializeComponent();
+        }
+
+        private void sidePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
