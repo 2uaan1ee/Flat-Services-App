@@ -49,6 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePass.Designer.cs">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgorPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgorPass.Designer.cs">
+      <DependentUpon>ForgorPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JoinFlat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoinFlat.Designer.cs">
+      <DependentUpon>JoinFlat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +75,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sign-up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign-up.Designer.cs">
+      <DependentUpon>Sign-up.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChangePass.resx">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgorPass.resx">
+      <DependentUpon>ForgorPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoinFlat.resx">
+      <DependentUpon>JoinFlat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -70,6 +103,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sign-up.resx">
+      <DependentUpon>Sign-up.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

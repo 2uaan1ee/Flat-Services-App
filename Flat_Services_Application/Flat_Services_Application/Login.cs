@@ -21,5 +21,39 @@ namespace Flat_Services_Application
         {
 
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void llbSign_up_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Sign_up s = new Sign_up();
+            s.Show();
+                
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            ForgorPass forgorPass = new ForgorPass();
+            forgorPass.Show();  
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(rdbtnLessor.Checked)
+            {
+                MessageBox.Show("enter Lessor form");
+            }
+            else
+            {
+                this.Hide();
+                JoinFlat joinFlat = new JoinFlat();
+                joinFlat.Show();
+            }    
+        }
     }
 }
