@@ -27,10 +27,10 @@ namespace Flat_Services_Application
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("a new password will be sent to your Email!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
             this.Hide();
-            Login login = new Login();
-            login.Show();
+            ChangePass c = new ChangePass();
+            c.Show();
         }
     }
 }

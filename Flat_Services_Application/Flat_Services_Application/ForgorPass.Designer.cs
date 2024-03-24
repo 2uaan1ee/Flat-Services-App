@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ForgorPass));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.btnReturn = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.lbForgotPass = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tbEmail = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.tbPhone = new Bunifu.UI.WinForms.BunifuTextBox();
             this.btnConfirm = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.tbPhone = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.tbEmail = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbForgotPass = new System.Windows.Forms.Label();
+            this.btnReturn = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,222 +70,6 @@
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(424, 339);
             this.bunifuPanel1.TabIndex = 0;
-            // 
-            // btnReturn
-            // 
-            this.btnReturn.AllowAnimations = true;
-            this.btnReturn.AllowBorderColorChanges = true;
-            this.btnReturn.AllowMouseEffects = true;
-            this.btnReturn.AnimationSpeed = 200;
-            this.btnReturn.BackColor = System.Drawing.Color.Transparent;
-            this.btnReturn.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReturn.BackgroundImage")));
-            this.btnReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnReturn.BorderColor = System.Drawing.Color.Transparent;
-            this.btnReturn.BorderRadius = 1;
-            this.btnReturn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.btnReturn.BorderThickness = 1;
-            this.btnReturn.ColorContrastOnClick = 30;
-            this.btnReturn.ColorContrastOnHover = 30;
-            this.btnReturn.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnReturn.CustomizableEdges = borderEdges2;
-            this.btnReturn.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnReturn.Image = null;
-            this.btnReturn.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.btnReturn.Location = new System.Drawing.Point(3, 3);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.RoundBorders = true;
-            this.btnReturn.ShowBorders = true;
-            this.btnReturn.Size = new System.Drawing.Size(35, 35);
-            this.btnReturn.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.btnReturn.TabIndex = 1;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
-            // 
-            // lbForgotPass
-            // 
-            this.lbForgotPass.AutoSize = true;
-            this.lbForgotPass.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbForgotPass.Location = new System.Drawing.Point(108, 6);
-            this.lbForgotPass.Name = "lbForgotPass";
-            this.lbForgotPass.Size = new System.Drawing.Size(217, 32);
-            this.lbForgotPass.TabIndex = 3;
-            this.lbForgotPass.Text = "Forgot Password";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(54, 91);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 19);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Email Address";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(55, 194);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 19);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Phone number";
-            // 
-            // tbEmail
-            // 
-            this.tbEmail.AcceptsReturn = false;
-            this.tbEmail.AcceptsTab = false;
-            this.tbEmail.AnimationSpeed = 200;
-            this.tbEmail.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.tbEmail.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.tbEmail.AutoSizeHeight = true;
-            this.tbEmail.BackColor = System.Drawing.Color.Transparent;
-            this.tbEmail.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbEmail.BackgroundImage")));
-            this.tbEmail.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.tbEmail.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.tbEmail.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.tbEmail.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbEmail.BorderRadius = 1;
-            this.tbEmail.BorderThickness = 1;
-            this.tbEmail.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.tbEmail.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tbEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbEmail.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.tbEmail.DefaultText = "";
-            this.tbEmail.FillColor = System.Drawing.Color.White;
-            this.tbEmail.HideSelection = true;
-            this.tbEmail.IconLeft = null;
-            this.tbEmail.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbEmail.IconPadding = 10;
-            this.tbEmail.IconRight = null;
-            this.tbEmail.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbEmail.Lines = new string[0];
-            this.tbEmail.Location = new System.Drawing.Point(57, 113);
-            this.tbEmail.MaxLength = 32767;
-            this.tbEmail.MinimumSize = new System.Drawing.Size(1, 1);
-            this.tbEmail.Modified = false;
-            this.tbEmail.Multiline = false;
-            this.tbEmail.Name = "tbEmail";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbEmail.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.tbEmail.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbEmail.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Empty;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbEmail.OnIdleState = stateProperties8;
-            this.tbEmail.Padding = new System.Windows.Forms.Padding(3);
-            this.tbEmail.PasswordChar = '\0';
-            this.tbEmail.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tbEmail.PlaceholderText = "Email";
-            this.tbEmail.ReadOnly = false;
-            this.tbEmail.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbEmail.SelectedText = "";
-            this.tbEmail.SelectionLength = 0;
-            this.tbEmail.SelectionStart = 0;
-            this.tbEmail.ShortcutsEnabled = true;
-            this.tbEmail.Size = new System.Drawing.Size(330, 35);
-            this.tbEmail.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbEmail.TabIndex = 6;
-            this.tbEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbEmail.TextMarginBottom = 0;
-            this.tbEmail.TextMarginLeft = 3;
-            this.tbEmail.TextMarginTop = 1;
-            this.tbEmail.TextPlaceholder = "Email";
-            this.tbEmail.UseSystemPasswordChar = false;
-            this.tbEmail.WordWrap = true;
-            // 
-            // tbPhone
-            // 
-            this.tbPhone.AcceptsReturn = false;
-            this.tbPhone.AcceptsTab = false;
-            this.tbPhone.AnimationSpeed = 200;
-            this.tbPhone.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.tbPhone.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.tbPhone.AutoSizeHeight = true;
-            this.tbPhone.BackColor = System.Drawing.Color.Transparent;
-            this.tbPhone.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbPhone.BackgroundImage")));
-            this.tbPhone.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.tbPhone.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.tbPhone.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.tbPhone.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbPhone.BorderRadius = 1;
-            this.tbPhone.BorderThickness = 1;
-            this.tbPhone.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.tbPhone.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tbPhone.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbPhone.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.tbPhone.DefaultText = "";
-            this.tbPhone.FillColor = System.Drawing.Color.White;
-            this.tbPhone.HideSelection = true;
-            this.tbPhone.IconLeft = null;
-            this.tbPhone.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbPhone.IconPadding = 10;
-            this.tbPhone.IconRight = null;
-            this.tbPhone.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbPhone.Lines = new string[0];
-            this.tbPhone.Location = new System.Drawing.Point(57, 216);
-            this.tbPhone.MaxLength = 32767;
-            this.tbPhone.MinimumSize = new System.Drawing.Size(1, 1);
-            this.tbPhone.Modified = false;
-            this.tbPhone.Multiline = false;
-            this.tbPhone.Name = "tbPhone";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbPhone.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.tbPhone.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbPhone.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbPhone.OnIdleState = stateProperties4;
-            this.tbPhone.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPhone.PasswordChar = '\0';
-            this.tbPhone.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tbPhone.PlaceholderText = "Phone";
-            this.tbPhone.ReadOnly = false;
-            this.tbPhone.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbPhone.SelectedText = "";
-            this.tbPhone.SelectionLength = 0;
-            this.tbPhone.SelectionStart = 0;
-            this.tbPhone.ShortcutsEnabled = true;
-            this.tbPhone.Size = new System.Drawing.Size(330, 35);
-            this.tbPhone.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbPhone.TabIndex = 7;
-            this.tbPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbPhone.TextMarginBottom = 0;
-            this.tbPhone.TextMarginLeft = 3;
-            this.tbPhone.TextMarginTop = 1;
-            this.tbPhone.TextPlaceholder = "Phone";
-            this.tbPhone.UseSystemPasswordChar = false;
-            this.tbPhone.WordWrap = true;
             // 
             // btnConfirm
             // 
@@ -379,8 +163,225 @@
             this.btnConfirm.UseDefaultRadiusAndThickness = true;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
+            // tbPhone
+            // 
+            this.tbPhone.AcceptsReturn = false;
+            this.tbPhone.AcceptsTab = false;
+            this.tbPhone.AnimationSpeed = 200;
+            this.tbPhone.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.tbPhone.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.tbPhone.AutoSizeHeight = true;
+            this.tbPhone.BackColor = System.Drawing.Color.Transparent;
+            this.tbPhone.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbPhone.BackgroundImage")));
+            this.tbPhone.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.tbPhone.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.tbPhone.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.tbPhone.BorderColorIdle = System.Drawing.Color.Silver;
+            this.tbPhone.BorderRadius = 1;
+            this.tbPhone.BorderThickness = 1;
+            this.tbPhone.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
+            this.tbPhone.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.tbPhone.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbPhone.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.tbPhone.DefaultText = "";
+            this.tbPhone.FillColor = System.Drawing.Color.White;
+            this.tbPhone.HideSelection = true;
+            this.tbPhone.IconLeft = null;
+            this.tbPhone.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbPhone.IconPadding = 10;
+            this.tbPhone.IconRight = null;
+            this.tbPhone.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbPhone.Lines = new string[0];
+            this.tbPhone.Location = new System.Drawing.Point(57, 216);
+            this.tbPhone.MaxLength = 32767;
+            this.tbPhone.MinimumSize = new System.Drawing.Size(1, 1);
+            this.tbPhone.Modified = false;
+            this.tbPhone.Multiline = false;
+            this.tbPhone.Name = "tbPhone";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbPhone.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.tbPhone.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbPhone.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbPhone.OnIdleState = stateProperties4;
+            this.tbPhone.Padding = new System.Windows.Forms.Padding(3);
+            this.tbPhone.PasswordChar = '\0';
+            this.tbPhone.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.tbPhone.PlaceholderText = "Phone";
+            this.tbPhone.ReadOnly = false;
+            this.tbPhone.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbPhone.SelectedText = "";
+            this.tbPhone.SelectionLength = 0;
+            this.tbPhone.SelectionStart = 0;
+            this.tbPhone.ShortcutsEnabled = true;
+            this.tbPhone.Size = new System.Drawing.Size(330, 35);
+            this.tbPhone.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.tbPhone.TabIndex = 7;
+            this.tbPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.tbPhone.TextMarginBottom = 0;
+            this.tbPhone.TextMarginLeft = 3;
+            this.tbPhone.TextMarginTop = 1;
+            this.tbPhone.TextPlaceholder = "Phone";
+            this.tbPhone.UseSystemPasswordChar = false;
+            this.tbPhone.WordWrap = true;
+            // 
+            // tbEmail
+            // 
+            this.tbEmail.AcceptsReturn = false;
+            this.tbEmail.AcceptsTab = false;
+            this.tbEmail.AnimationSpeed = 200;
+            this.tbEmail.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.tbEmail.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.tbEmail.AutoSizeHeight = true;
+            this.tbEmail.BackColor = System.Drawing.Color.Transparent;
+            this.tbEmail.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbEmail.BackgroundImage")));
+            this.tbEmail.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.tbEmail.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.tbEmail.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.tbEmail.BorderColorIdle = System.Drawing.Color.Silver;
+            this.tbEmail.BorderRadius = 1;
+            this.tbEmail.BorderThickness = 1;
+            this.tbEmail.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
+            this.tbEmail.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.tbEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbEmail.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.tbEmail.DefaultText = "";
+            this.tbEmail.FillColor = System.Drawing.Color.White;
+            this.tbEmail.HideSelection = true;
+            this.tbEmail.IconLeft = null;
+            this.tbEmail.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbEmail.IconPadding = 10;
+            this.tbEmail.IconRight = null;
+            this.tbEmail.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbEmail.Lines = new string[0];
+            this.tbEmail.Location = new System.Drawing.Point(57, 113);
+            this.tbEmail.MaxLength = 32767;
+            this.tbEmail.MinimumSize = new System.Drawing.Size(1, 1);
+            this.tbEmail.Modified = false;
+            this.tbEmail.Multiline = false;
+            this.tbEmail.Name = "tbEmail";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbEmail.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.tbEmail.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbEmail.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbEmail.OnIdleState = stateProperties8;
+            this.tbEmail.Padding = new System.Windows.Forms.Padding(3);
+            this.tbEmail.PasswordChar = '\0';
+            this.tbEmail.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.tbEmail.PlaceholderText = "Email";
+            this.tbEmail.ReadOnly = false;
+            this.tbEmail.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbEmail.SelectedText = "";
+            this.tbEmail.SelectionLength = 0;
+            this.tbEmail.SelectionStart = 0;
+            this.tbEmail.ShortcutsEnabled = true;
+            this.tbEmail.Size = new System.Drawing.Size(330, 35);
+            this.tbEmail.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.tbEmail.TabIndex = 6;
+            this.tbEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.tbEmail.TextMarginBottom = 0;
+            this.tbEmail.TextMarginLeft = 3;
+            this.tbEmail.TextMarginTop = 1;
+            this.tbEmail.TextPlaceholder = "Email";
+            this.tbEmail.UseSystemPasswordChar = false;
+            this.tbEmail.WordWrap = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(55, 194);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(107, 19);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Phone number";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(54, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 19);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Email Address";
+            // 
+            // lbForgotPass
+            // 
+            this.lbForgotPass.AutoSize = true;
+            this.lbForgotPass.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbForgotPass.Location = new System.Drawing.Point(108, 6);
+            this.lbForgotPass.Name = "lbForgotPass";
+            this.lbForgotPass.Size = new System.Drawing.Size(217, 32);
+            this.lbForgotPass.TabIndex = 3;
+            this.lbForgotPass.Text = "Forgot Password";
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.AllowAnimations = true;
+            this.btnReturn.AllowBorderColorChanges = true;
+            this.btnReturn.AllowMouseEffects = true;
+            this.btnReturn.AnimationSpeed = 200;
+            this.btnReturn.BackColor = System.Drawing.Color.Transparent;
+            this.btnReturn.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReturn.BackgroundImage")));
+            this.btnReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReturn.BorderColor = System.Drawing.Color.Transparent;
+            this.btnReturn.BorderRadius = 1;
+            this.btnReturn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.btnReturn.BorderThickness = 1;
+            this.btnReturn.ColorContrastOnClick = 30;
+            this.btnReturn.ColorContrastOnHover = 30;
+            this.btnReturn.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btnReturn.CustomizableEdges = borderEdges2;
+            this.btnReturn.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnReturn.Image = null;
+            this.btnReturn.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.btnReturn.Location = new System.Drawing.Point(3, 3);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.RoundBorders = true;
+            this.btnReturn.ShowBorders = true;
+            this.btnReturn.Size = new System.Drawing.Size(35, 35);
+            this.btnReturn.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.btnReturn.TabIndex = 1;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // ForgorPass
             // 
+            this.AcceptButton = this.btnConfirm;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
