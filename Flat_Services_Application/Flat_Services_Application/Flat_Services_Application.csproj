@@ -36,23 +36,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu.Charts.WinForms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.Charts.WinForms.2.0.0\lib\net40\Bunifu.Charts.WinForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Bunifu.Dataviz.WinForms, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.Dataviz.WinForms.2.2.1\lib\Bunifu.Dataviz.WinForms.dll</HintPath>
-    </Reference>
     <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.Licensing.5.0.0\lib\net40\Bunifu.Licensing.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
       <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.UI.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
       <HintPath>..\packages\Bunifu.UI.WinForms.1.5.3.2.0.0\lib\net452\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
-    </Reference>
-    <Reference Include="Bunifu.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.Utils.1.0.5\lib\net45\Bunifu.Utils.dll</HintPath>
     </Reference>
     <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
       <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
@@ -229,6 +220,24 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ternantChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ternantChat.Designer.cs">
+      <DependentUpon>ternantChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ternantDepCos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ternantDepCos.Designer.cs">
+      <DependentUpon>ternantDepCos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ternantDepInf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ternantDepInf.Designer.cs">
+      <DependentUpon>ternantDepInf.cs</DependentUpon>
+    </Compile>
     <Compile Include="ternantHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +252,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ternantServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ternantServices.Designer.cs">
+      <DependentUpon>ternantServices.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ternantChat.resx">
+      <DependentUpon>ternantChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ternantDepCos.resx">
+      <DependentUpon>ternantDepCos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ternantDepInf.resx">
+      <DependentUpon>ternantDepInf.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ternantHome.resx">
       <DependentUpon>ternantHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -259,6 +283,9 @@
     </Compile>
     <EmbeddedResource Include="ternantSelect.resx">
       <DependentUpon>ternantSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ternantServices.resx">
+      <DependentUpon>ternantServices.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

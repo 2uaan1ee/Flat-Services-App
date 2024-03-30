@@ -26,5 +26,10 @@ namespace Flat_Services_Application
         {
 
         }
+
+        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

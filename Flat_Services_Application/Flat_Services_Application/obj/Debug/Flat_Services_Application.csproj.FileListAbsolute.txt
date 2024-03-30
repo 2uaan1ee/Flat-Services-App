@@ -1,8 +1,6 @@
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe.config
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.pdb
-D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.Charts.WinForms.xml
-D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.Dataviz.WinForms.xml
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.xml
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Win32.Registry.xml
@@ -47,3 +45,7 @@ D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Fl
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ternantSelect.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ternantDepInf.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ternantChat.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ternantDepCos.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ternantServices.resources
