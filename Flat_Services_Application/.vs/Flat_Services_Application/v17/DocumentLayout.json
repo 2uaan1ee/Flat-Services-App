@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\ternantdepinf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantdepinf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\ternantchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternanthome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\ternantdepinf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantdepinf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\ternanthome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternanthome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,6 +71,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ternantChat.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantChat.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantChat.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantChat.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\ternantChat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:11:26.284Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ternantDepCos.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepCos.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantDepCos.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepCos.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\ternantDepCos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:47:45.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ternantSelect.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantSelect.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantSelect.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantSelect.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\ternantSelect.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T04:52:28.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ternantDepInf.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepInf.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantDepInf.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepInf.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\ternantDepInf.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T09:57:08.207Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ternantServices.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantServices.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantServices.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantServices.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\ternantServices.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:57:49.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ternantChat.cs",
               "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantChat.cs",
               "RelativeDocumentMoniker": "Flat_Services_Application\\ternantChat.cs",
@@ -83,52 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ternantChat.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantChat.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantChat.cs",
-              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantChat.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\ternantChat.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:11:26.284Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ternantServices.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantServices.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantServices.cs",
-              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantServices.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\ternantServices.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:57:49.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ternantDepCos.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepCos.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantDepCos.cs",
-              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepCos.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\ternantDepCos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:47:45.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ternantSelect.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantSelect.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantSelect.cs",
-              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantSelect.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\ternantSelect.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T04:52:28.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ternantDepCos.cs",
               "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepCos.cs",
               "RelativeDocumentMoniker": "Flat_Services_Application\\ternantDepCos.cs",
@@ -140,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ternantHome.cs [Design]",
               "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantHome.cs",
               "RelativeDocumentMoniker": "Flat_Services_Application\\ternantHome.cs",
@@ -148,17 +160,6 @@
               "RelativeToolTip": "Flat_Services_Application\\ternantHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T05:20:29.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ternantDepInf.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepInf.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\ternantDepInf.cs",
-              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ternantDepInf.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\ternantDepInf.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T09:57:08.207Z"
             },
             {
               "$type": "Document",
@@ -182,7 +183,8 @@
               "RelativeToolTip": "Flat_Services_Application\\ternantDepInf.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAIAwwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T02:33:42.948Z"
+              "WhenOpened": "2024-03-25T02:33:42.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
