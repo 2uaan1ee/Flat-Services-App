@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\ternantchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\ternantcosts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantcosts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\ternantinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\ternantservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\ternantservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github flatservices\\flat-services-app\\flat_services_application\\flat_services_application\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TernantCosts.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantCosts.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\TernantCosts.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantCosts.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\TernantCosts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:30:39.702Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeNavigation.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\HomeNavigation.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\HomeNavigation.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\HomeNavigation.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\HomeNavigation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:21:16.901Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TernantChat.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantChat.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\TernantChat.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantChat.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\TernantChat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T22:20:07.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TernantInformation.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantInformation.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\TernantInformation.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantInformation.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\TernantInformation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T22:18:08.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TernantServices.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantServices.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\TernantServices.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\TernantServices.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\TernantServices.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T22:19:12.165Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeNavigation.cs",
+              "DocumentMoniker": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\HomeNavigation.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\HomeNavigation.cs",
+              "ToolTip": "D:\\ProjectAll\\github flatservices\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\HomeNavigation.cs",
+              "RelativeToolTip": "Flat_Services_Application\\HomeNavigation.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA5wB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:31:33.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

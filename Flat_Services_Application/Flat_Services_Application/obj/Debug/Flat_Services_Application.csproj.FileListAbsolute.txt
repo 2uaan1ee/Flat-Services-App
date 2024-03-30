@@ -1,0 +1,12 @@
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe.config
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.pdb
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.AssemblyReference.cache
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.HomeNavigation.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Properties.Resources.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.TernantCosts.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.TernantInformation.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.GenerateResource.cache
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.CoreCompileInputs.cache
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
