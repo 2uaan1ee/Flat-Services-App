@@ -29,7 +29,30 @@ namespace Flat_Services_Application
 
         private void costsBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            TernantCosts ternantCosts = new TernantCosts();
+            ternantCosts.Show();
+        }
 
+        private void infoBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TernantInformation ternantInformation = new TernantInformation();
+            ternantInformation.Show();
+        }
+
+        private void servicesBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TernantServices ternantServices = new TernantServices();
+            ternantServices.Show();
+        }
+
+        private void chatBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TernantChat ternantChat = new TernantChat();
+            ternantChat.Show();
         }
     }
 }

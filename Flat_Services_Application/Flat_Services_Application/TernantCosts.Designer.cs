@@ -111,7 +111,9 @@
             this.chatBtn.Size = new System.Drawing.Size(360, 120);
             this.chatBtn.TabIndex = 5;
             this.chatBtn.Text = "Chat";
+            this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
+            this.chatBtn.Click += new System.EventHandler(this.chatBtn_Click_1);
             // 
             // servicesBtn
             // 
@@ -122,7 +124,9 @@
             this.servicesBtn.Size = new System.Drawing.Size(360, 120);
             this.servicesBtn.TabIndex = 4;
             this.servicesBtn.Text = "Services";
+            this.servicesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.servicesBtn.UseVisualStyleBackColor = true;
+            this.servicesBtn.Click += new System.EventHandler(this.servicesBtn_Click_1);
             // 
             // infoBtn
             // 
@@ -133,7 +137,9 @@
             this.infoBtn.Size = new System.Drawing.Size(360, 120);
             this.infoBtn.TabIndex = 3;
             this.infoBtn.Text = "Info";
+            this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
+            this.infoBtn.Click += new System.EventHandler(this.infoBtn_Click);
             // 
             // costsBtn
             // 
@@ -144,6 +150,7 @@
             this.costsBtn.Size = new System.Drawing.Size(360, 120);
             this.costsBtn.TabIndex = 2;
             this.costsBtn.Text = "Costs";
+            this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
             // 
             // homeBtn
@@ -156,7 +163,9 @@
             this.homeBtn.Size = new System.Drawing.Size(360, 120);
             this.homeBtn.TabIndex = 1;
             this.homeBtn.Text = "Home";
+            this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homeBtn.UseVisualStyleBackColor = false;
+            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
             // panel3
             // 

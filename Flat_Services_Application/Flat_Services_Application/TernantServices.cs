@@ -16,5 +16,33 @@ namespace Flat_Services_Application
         {
             InitializeComponent();
         }
+
+        private void homeBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HomeNavigation homeNavigation = new HomeNavigation();
+            homeNavigation.Show();
+        }
+
+        private void costsBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TernantCosts ternantCosts = new TernantCosts();
+            ternantCosts.Show();
+        }
+
+        private void infoBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TernantInformation ternantInformation = new TernantInformation();
+            ternantInformation.Show();
+        }
+
+        private void chatBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TernantChat ternantChat = new TernantChat();
+            ternantChat.Show();
+        }
     }
 }

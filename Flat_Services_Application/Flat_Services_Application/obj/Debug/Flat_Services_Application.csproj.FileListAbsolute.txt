@@ -10,3 +10,5 @@ D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Fl
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.CoreCompileInputs.cache
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.TernantChat.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.TernantServices.resources
