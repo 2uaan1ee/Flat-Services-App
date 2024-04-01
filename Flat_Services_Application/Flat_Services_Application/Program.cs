@@ -16,7 +16,11 @@ namespace Flat_Services_Application
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new HomeNavigation());
+=======
+            Application.Run(new Login());
+>>>>>>> 95cec219eaf1bbdaaf75bb01c44cbaf98648d95f
         }
     }
 }
