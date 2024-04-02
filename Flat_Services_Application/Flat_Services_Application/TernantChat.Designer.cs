@@ -185,8 +185,8 @@
             this.ClientSize = new System.Drawing.Size(1600, 1000);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TernantChat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TernantChat";
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

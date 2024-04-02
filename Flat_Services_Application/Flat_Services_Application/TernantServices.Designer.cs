@@ -186,6 +186,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TernantServices";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TernantServices";
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
