@@ -388,7 +388,7 @@
             this.button3.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(18, 251);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 56);
+            this.button3.Size = new System.Drawing.Size(176, 61);
             this.button3.TabIndex = 2;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -399,7 +399,7 @@
             this.button2.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(18, 149);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(126, 56);
+            this.button2.Size = new System.Drawing.Size(176, 69);
             this.button2.TabIndex = 1;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
@@ -411,7 +411,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(18, 47);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 56);
+            this.button1.Size = new System.Drawing.Size(176, 69);
             this.button1.TabIndex = 0;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -497,7 +497,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(378, 571);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1160, 391);
+            this.groupBox1.Size = new System.Drawing.Size(1160, 417);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Information";
