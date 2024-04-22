@@ -34,6 +34,8 @@ create table room (
 	trangthaiphong bit
 )
 
+alter table room alter column macanho varchar(20)
+
 create table ctthue (
 	cccd varchar(20), 
 	maphong varchar(10) 
@@ -87,8 +89,15 @@ create table sohuu (
 	constraint pk_sohuu primary key (cccd_chu, macanho)
 )
 	
-	
+alter table roomate add constraint fk_romate foreign key (cccd) references ternant (cccd)
 
+alter table bill add constraint fk_bill foreign key (maphong) references room (maphong)
 
+alter table room add constraint fk_room foreign key (macanho) references department (macanho)
 
-
+alter table ctthue add constraint fk_ctt foreign key (cccd) references ternant (cccd)
+alter table ctthue add constraint fk_ctt2 foreign key (maphong) references room (maphong)
+alter table thuedichvu add constraint fk_thuedv foreign key (maphong) references room (maphong)
+alter table thuedichvu add constraint fk_thuedv2 foreign key (madichvu) references dichvu (madichvu)
+alter table sohuu add constraint fk_sohuu foreign key (cccd_chu) references lessor (cccd_chu)
+alter table sohuu add constraint fk_sohuu2 foreign key (macanho) references department (macanho)
