@@ -45,6 +45,9 @@ namespace Flat_Services_Application
             ternantChat.Show();
         }
 
+        private void label9_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
