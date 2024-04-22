@@ -22,6 +22,7 @@ namespace Flat_Services_Application
             this.Hide();
             HomeNavigation homeNavigation = new HomeNavigation();
             homeNavigation.Show();
+
         }
 
         private void costsBtn_Click(object sender, EventArgs e)

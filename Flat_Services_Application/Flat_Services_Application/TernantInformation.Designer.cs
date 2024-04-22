@@ -94,6 +94,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1240, 160);
             this.panel4.TabIndex = 0;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // label1
             // 

@@ -54,5 +54,16 @@ namespace Flat_Services_Application
             TernantChat ternantChat = new TernantChat();
             ternantChat.Show();
         }
+
+        private void homeBtn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void HomeNavigation_Load(object sender, EventArgs e)
+        {
+            this.homeBtn.BackColor = Color.DarkGreen;
+            this.homeBtn.ForeColor = Color.White;
+        }
     }
 }

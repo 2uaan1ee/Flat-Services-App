@@ -27,6 +27,7 @@ namespace Flat_Services_Application
             this.Hide();
             HomeNavigation homeNavigation = new HomeNavigation();
             homeNavigation.Show();
+           
         }
 
         private void costsBtn_Click(object sender, EventArgs e)
@@ -48,6 +49,12 @@ namespace Flat_Services_Application
             this.Hide();
             TernantChat ternantChat = new TernantChat();
             ternantChat.Show();
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            this.infoBtn.BackColor = Color.DarkGreen;
+            this.infoBtn.ForeColor = Color.White;
         }
     }
 }

@@ -136,6 +136,7 @@
             this.homeBtn.Text = "Home";
             this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homeBtn.UseVisualStyleBackColor = false;
+            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
             // panel3
             // 
@@ -190,6 +191,7 @@
             this.Name = "HomeNavigation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "homeNav";
+            this.Load += new System.EventHandler(this.HomeNavigation_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

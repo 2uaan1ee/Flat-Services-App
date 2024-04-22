@@ -1,0 +1,94 @@
+create database test1
+use test1
+
+create table ternant (
+	cccd varchar(20) primary key not null,
+	hoten nvarchar(30) not null,
+	gioitinh bit,
+	vaitro bit,
+	ngaysinh smalldatetime,
+	biensoxe varchar(20),
+	sdt varchar(11),
+	diachi nvarchar(100)
+)
+
+create table roomate (
+	madinhdanh varchar(20) primary key,
+	hoten nvarchar(30) not null,
+	gioitinh bit,
+	vaitro bit,
+	ngaysinh smalldatetime,
+	biensoxe varchar(20),
+	sdt varchar(11),
+	diachi nvarchar(100),
+	cccd varchar(20)
+)
+ 
+create table room (
+	maphong varchar(10) primary key not null,
+	soluong int,
+	macanho varchar(10),
+	tienphong int,
+	tiendichvu int,
+	tongtien int,
+	trangthaiphong bit
+)
+
+create table ctthue (
+	cccd varchar(20), 
+	maphong varchar(10) 
+	constraint pk_ctthue primary key (cccd, maphong)
+)
+
+create table bill (
+	mahoadon varchar(10) primary key not null,
+	maphong varchar(10),
+	sotienthanhtoan int,
+	tienno int,
+	noidung nvarchar(100),
+	ngaythanhtoan smalldatetime
+)
+
+create table dichvu (
+	madichvu varchar(5) primary key not null,
+	tendichvu nvarchar(20),
+	ngaydangky smalldatetime,
+	giodangky int,
+	thoigiansudung int,
+)
+alter table dichvu add phidv int
+
+create table thuedichvu (
+	maphong varchar(10),
+	madichvu varchar(5),
+	tongtien int
+	constraint pk_thuedv primary key (maphong,madichvu)
+	)
+
+create table department (
+	macanho varchar(20) primary key,
+	tencanho nvarchar(30),
+	soluongphong int,
+	sotang int,
+	diachi nvarchar(100),
+)
+
+create table lessor (
+	cccd_chu varchar(20) primary key not null,
+	hoten nvarchar(30),
+	gioitinh bit,
+	ngaysinh smalldatetime,
+	sdt varchar(11)
+)
+
+create table sohuu (
+	cccd_chu varchar(20),
+	macanho varchar(20)
+	constraint pk_sohuu primary key (cccd_chu, macanho)
+)
+	
+	
+
+
+
+
