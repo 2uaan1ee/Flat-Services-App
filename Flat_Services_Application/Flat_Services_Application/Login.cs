@@ -55,5 +55,23 @@ namespace Flat_Services_Application
                 joinFlat.Show();
             }    
         }
+
+        private void Eye_Click(object sender, EventArgs e)
+        {
+            Hidden.BringToFront();
+            tbPass.PasswordChar = '\0';
+        }
+
+        private void Hidden_Click(object sender, EventArgs e)
+        {
+            Eye.BringToFront();
+            tbPass.PasswordChar = '*';
+        }
+
+        
+        private void cbRemember_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

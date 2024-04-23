@@ -259,6 +259,7 @@
             this.btnConfirm.TextMarginLeft = 0;
             this.btnConfirm.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnConfirm.UseDefaultRadiusAndThickness = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // JoinFlat
             // 
@@ -271,6 +272,7 @@
             this.Controls.Add(this.bunifuPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "JoinFlat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flat Service";
             this.bunifuPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

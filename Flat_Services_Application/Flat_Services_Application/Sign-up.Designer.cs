@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sign_up));
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -60,8 +60,8 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties54 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties55 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties56 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.btnReturn = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
@@ -132,7 +132,6 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.Eye1);
             this.bunifuPanel1.Controls.Add(this.btnSign_up);
             this.bunifuPanel1.Controls.Add(this.llbTerm);
             this.bunifuPanel1.Controls.Add(this.cbTerm);
@@ -152,8 +151,9 @@
             this.bunifuPanel1.Controls.Add(this.tbName);
             this.bunifuPanel1.Controls.Add(this.lbSign_up);
             this.bunifuPanel1.Controls.Add(this.btnReturn);
-            this.bunifuPanel1.Controls.Add(this.Eye2);
+            this.bunifuPanel1.Controls.Add(this.Eye1);
             this.bunifuPanel1.Controls.Add(this.Hidden1);
+            this.bunifuPanel1.Controls.Add(this.Eye2);
             this.bunifuPanel1.Controls.Add(this.Hidden2);
             this.bunifuPanel1.Location = new System.Drawing.Point(152, 12);
             this.bunifuPanel1.Name = "bunifuPanel1";
@@ -178,21 +178,22 @@
             this.Eye1.ColorContrastOnClick = 30;
             this.Eye1.ColorContrastOnHover = 30;
             this.Eye1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.Eye1.CustomizableEdges = borderEdges8;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.Eye1.CustomizableEdges = borderEdges9;
             this.Eye1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Eye1.Image = null;
             this.Eye1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye1.Location = new System.Drawing.Point(480, 152);
+            this.Eye1.Location = new System.Drawing.Point(480, 149);
             this.Eye1.Name = "Eye1";
             this.Eye1.RoundBorders = true;
             this.Eye1.ShowBorders = true;
             this.Eye1.Size = new System.Drawing.Size(24, 24);
             this.Eye1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Eye1.TabIndex = 29;
+            this.Eye1.Click += new System.EventHandler(this.Eye1_Click);
             // 
             // btnSign_up
             // 
@@ -213,11 +214,11 @@
             this.btnSign_up.ColorContrastOnClick = 45;
             this.btnSign_up.ColorContrastOnHover = 45;
             this.btnSign_up.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.btnSign_up.CustomizableEdges = borderEdges9;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.btnSign_up.CustomizableEdges = borderEdges8;
             this.btnSign_up.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSign_up.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSign_up.DisabledFillColor = System.Drawing.Color.Empty;
@@ -928,11 +929,11 @@
             this.Eye2.ColorContrastOnClick = 30;
             this.Eye2.ColorContrastOnHover = 30;
             this.Eye2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.Eye2.CustomizableEdges = borderEdges10;
+            borderEdges11.BottomLeft = true;
+            borderEdges11.BottomRight = true;
+            borderEdges11.TopLeft = true;
+            borderEdges11.TopRight = true;
+            this.Eye2.CustomizableEdges = borderEdges11;
             this.Eye2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Eye2.Image = null;
             this.Eye2.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -943,6 +944,7 @@
             this.Eye2.Size = new System.Drawing.Size(24, 24);
             this.Eye2.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Eye2.TabIndex = 32;
+            this.Eye2.Click += new System.EventHandler(this.Eye2_Click);
             // 
             // Hidden1
             // 
@@ -961,11 +963,11 @@
             this.Hidden1.ColorContrastOnClick = 30;
             this.Hidden1.ColorContrastOnHover = 30;
             this.Hidden1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.Hidden1.CustomizableEdges = borderEdges11;
+            borderEdges10.BottomLeft = true;
+            borderEdges10.BottomRight = true;
+            borderEdges10.TopLeft = true;
+            borderEdges10.TopRight = true;
+            this.Hidden1.CustomizableEdges = borderEdges10;
             this.Hidden1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Hidden1.Image = null;
             this.Hidden1.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -976,6 +978,7 @@
             this.Hidden1.Size = new System.Drawing.Size(24, 24);
             this.Hidden1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Hidden1.TabIndex = 30;
+            this.Hidden1.Click += new System.EventHandler(this.Hidden1_Click);
             // 
             // Hidden2
             // 
@@ -1009,6 +1012,7 @@
             this.Hidden2.Size = new System.Drawing.Size(24, 24);
             this.Hidden2.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Hidden2.TabIndex = 31;
+            this.Hidden2.Click += new System.EventHandler(this.Hidden2_Click);
             // 
             // Sign_up
             // 
@@ -1021,6 +1025,7 @@
             this.Controls.Add(this.bunifuPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Sign_up";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flat Service";
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
