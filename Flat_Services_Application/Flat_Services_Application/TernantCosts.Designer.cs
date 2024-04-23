@@ -51,20 +51,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -79,7 +79,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(360, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1240, 160);
+            this.panel2.Size = new System.Drawing.Size(1273, 160);
             this.panel2.TabIndex = 3;
             // 
             // panel4
@@ -89,7 +89,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1240, 160);
+            this.panel4.Size = new System.Drawing.Size(1273, 160);
             this.panel4.TabIndex = 0;
             // 
             // label1
@@ -117,14 +117,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 1000);
+            this.panel1.Size = new System.Drawing.Size(360, 1073);
             this.panel1.TabIndex = 2;
             // 
             // logoutBtn
             // 
             this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.logoutBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.Location = new System.Drawing.Point(0, 880);
+            this.logoutBtn.Location = new System.Drawing.Point(0, 953);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.Size = new System.Drawing.Size(360, 120);
             this.logoutBtn.TabIndex = 6;
@@ -221,7 +221,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(378, 197);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1179, 203);
+            this.groupBox1.Size = new System.Drawing.Size(1213, 203);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Payment Information";
@@ -344,10 +344,86 @@
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(378, 442);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1179, 525);
+            this.groupBox2.Size = new System.Drawing.Size(1213, 563);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Account";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Red;
+            this.label12.Location = new System.Drawing.Point(749, 46);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(233, 32);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "PAYING ON TIME";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(748, 94);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(108, 38);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Status";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(862, 91);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(287, 46);
+            this.textBox9.TabIndex = 12;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(749, 488);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(368, 33);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Dated: 1st-5th every month";
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(755, 166);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 10;
+            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(22, 249);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 82;
+            this.dataGridView1.RowTemplate.Height = 33;
+            this.dataGridView1.Size = new System.Drawing.Size(711, 272);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(556, 125);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(144, 45);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Return";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(556, 63);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(144, 45);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Send";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox8
             // 
@@ -404,92 +480,16 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "AccountNumber";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(556, 63);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 45);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Send";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(556, 125);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 45);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Return";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(22, 249);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(711, 256);
-            this.dataGridView1.TabIndex = 9;
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(745, 147);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 10;
-            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(749, 473);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(368, 33);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Dated: 1st-5th every month";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(862, 91);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(287, 46);
-            this.textBox9.TabIndex = 12;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(748, 94);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(108, 38);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Status";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(749, 46);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(233, 32);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "PAYING ON TIME";
-            // 
             // TernantCosts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1600, 1000);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1633, 1073);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TernantCosts";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TernantCosts";
