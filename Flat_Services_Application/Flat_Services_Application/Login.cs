@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Flat_Services_Application
@@ -41,21 +42,36 @@ namespace Flat_Services_Application
             ForgorPass forgorPass = new ForgorPass();
             forgorPass.Show();  
         }
-
+        int flag = 0;
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if(rdbtnLessor.Checked)
             {
-                MessageBox.Show("enter Lessor form");
+                flag = 1;
+                MessageBox.Show("Enter Lessor form");
+                Thread th = new Thread(hienthi);
+                th.IsBackground = true;
+                th.Start();
             }
-            else
+            if (rdbynTenant.Checked)
             {
-                this.Hide();
-                JoinFlat joinFlat = new JoinFlat();
-                joinFlat.Show();
+                flag = 1;
+                MessageBox.Show("Enter Tenant form");
+                Thread th = new Thread(hienthi);
+                th.IsBackground = true;
+                th.Start();
+            }
+            if(flag ==0)
+            {
+                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }    
         }
-
+        public void hienthi()
+        {
+            Login login = new Login();  
+            login.Show();
+        }
         private void Eye_Click(object sender, EventArgs e)
         {
             Hidden.BringToFront();

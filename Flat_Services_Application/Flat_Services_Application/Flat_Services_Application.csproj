@@ -61,12 +61,6 @@
     <Compile Include="ForgorPass.Designer.cs">
       <DependentUpon>ForgorPass.cs</DependentUpon>
     </Compile>
-    <Compile Include="JoinFlat.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JoinFlat.Designer.cs">
-      <DependentUpon>JoinFlat.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,9 +80,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ForgorPass.resx">
       <DependentUpon>ForgorPass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JoinFlat.resx">
-      <DependentUpon>JoinFlat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

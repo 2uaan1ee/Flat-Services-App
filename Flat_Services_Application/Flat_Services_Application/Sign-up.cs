@@ -28,6 +28,11 @@ namespace Flat_Services_Application
 
         private void btnSign_up_Click(object sender, EventArgs e)
         {
+            if(tbEmail.Text == "" || tbName.Text == "" || tbPass.Text == "" || tbconfirmPass.Text == "" || tbPhone.Text =="" || tbID.Text =="" || tbDate.Text=="")
+            {
+                MessageBox.Show("Data isn't valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }    
             if(!IsEmail(tbEmail.Text.Trim()))
             {
                 MessageBox.Show("Email isn't valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
