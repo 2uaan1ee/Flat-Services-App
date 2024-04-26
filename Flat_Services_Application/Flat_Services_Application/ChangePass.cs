@@ -19,16 +19,18 @@ namespace Flat_Services_Application
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-            // dieu kien xet day phai la mat khau hien tai hay k -> kiem tra trong database
+            // dieu kien xet day phai la mat khau hien tai hay k -> kiem tra trong database, truy xuat bnag hien thi std
             
             if(!IsPass(tbNewPass.Text))
             {
-                MessageBox.Show("Password is not valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                lb2.Text = "!";
+                lb2.ForeColor = Color.Red;
                 return;
             }
             if(tbConfirmNew.Text != tbNewPass.Text)
             {
-                MessageBox.Show("New password and Confirm new password are differnet!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                lb3.Text = "!";
+                lb3.ForeColor = Color.Red;
                 return;
             }
             MessageBox.Show("Change Password successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -83,7 +85,40 @@ namespace Flat_Services_Application
 
         private void tbNewPass_TextChanged(object sender, EventArgs e)
         {
+            if (tbNewPass.Text == "")
+            {
+                lb2.Text = "*";
+                lb2.ForeColor = Color.Red;
+            }
+            else
+                lb2.Text = "";
+        }
 
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbCurrPass_TextChanged(object sender, EventArgs e)
+        {
+            if (tbCurrPass.Text == "")
+            {
+                lb1.Text = "*";
+                lb1.ForeColor = Color.Red;
+            }
+            else
+                lb1.Text = "";
+        }
+
+        private void tbConfirmNew_TextChanged(object sender, EventArgs e)
+        {
+            if (tbConfirmNew.Text == "")
+            {
+                lb3.Text = "*";
+                lb3.ForeColor = Color.Red;
+            }
+            else
+                lb3.Text = "";
         }
     }
 }

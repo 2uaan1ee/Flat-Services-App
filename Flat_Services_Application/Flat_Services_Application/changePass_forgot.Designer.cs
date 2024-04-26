@@ -1,6 +1,6 @@
 ﻿namespace Flat_Services_Application
 {
-    partial class ChangePass
+    partial class changePass_forgot
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChangePass));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(changePass_forgot));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -38,36 +38,25 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lb2 = new System.Windows.Forms.Label();
+            this.lb1 = new System.Windows.Forms.Label();
             this.btnConfirm = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.tbConfirmNew = new Bunifu.UI.WinForms.BunifuTextBox();
             this.tbNewPass = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.tbCurrPass = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnReturn = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.lbChangePass = new System.Windows.Forms.Label();
             this.Eye2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.Eye3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.Hidden2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.Hidden3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Eye1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Hidden1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.lb1 = new System.Windows.Forms.Label();
-            this.lb2 = new System.Windows.Forms.Label();
-            this.lb3 = new System.Windows.Forms.Label();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,29 +68,46 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.lb3);
             this.bunifuPanel1.Controls.Add(this.lb2);
             this.bunifuPanel1.Controls.Add(this.lb1);
             this.bunifuPanel1.Controls.Add(this.btnConfirm);
             this.bunifuPanel1.Controls.Add(this.tbConfirmNew);
             this.bunifuPanel1.Controls.Add(this.tbNewPass);
-            this.bunifuPanel1.Controls.Add(this.tbCurrPass);
             this.bunifuPanel1.Controls.Add(this.label3);
             this.bunifuPanel1.Controls.Add(this.label2);
-            this.bunifuPanel1.Controls.Add(this.label1);
             this.bunifuPanel1.Controls.Add(this.btnReturn);
             this.bunifuPanel1.Controls.Add(this.lbChangePass);
             this.bunifuPanel1.Controls.Add(this.Eye2);
             this.bunifuPanel1.Controls.Add(this.Eye3);
             this.bunifuPanel1.Controls.Add(this.Hidden2);
             this.bunifuPanel1.Controls.Add(this.Hidden3);
-            this.bunifuPanel1.Controls.Add(this.Eye1);
-            this.bunifuPanel1.Controls.Add(this.Hidden1);
-            this.bunifuPanel1.Location = new System.Drawing.Point(177, 47);
+            this.bunifuPanel1.Location = new System.Drawing.Point(162, 45);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(476, 360);
-            this.bunifuPanel1.TabIndex = 0;
+            this.bunifuPanel1.TabIndex = 1;
+            // 
+            // lb2
+            // 
+            this.lb2.AutoSize = true;
+            this.lb2.BackColor = System.Drawing.SystemColors.Control;
+            this.lb2.ForeColor = System.Drawing.Color.Red;
+            this.lb2.Location = new System.Drawing.Point(32, 262);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(12, 16);
+            this.lb2.TabIndex = 37;
+            this.lb2.Text = "*";
+            // 
+            // lb1
+            // 
+            this.lb1.AutoSize = true;
+            this.lb1.BackColor = System.Drawing.SystemColors.Control;
+            this.lb1.ForeColor = System.Drawing.Color.Red;
+            this.lb1.Location = new System.Drawing.Point(32, 160);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(12, 16);
+            this.lb1.TabIndex = 36;
+            this.lb1.Text = "*";
             // 
             // btnConfirm
             // 
@@ -224,7 +230,7 @@
             this.tbConfirmNew.IconRight = null;
             this.tbConfirmNew.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbConfirmNew.Lines = new string[0];
-            this.tbConfirmNew.Location = new System.Drawing.Point(35, 244);
+            this.tbConfirmNew.Location = new System.Drawing.Point(35, 217);
             this.tbConfirmNew.MaxLength = 32767;
             this.tbConfirmNew.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbConfirmNew.Modified = false;
@@ -301,7 +307,7 @@
             this.tbNewPass.IconRight = null;
             this.tbNewPass.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbNewPass.Lines = new string[0];
-            this.tbNewPass.Location = new System.Drawing.Point(35, 164);
+            this.tbNewPass.Location = new System.Drawing.Point(35, 119);
             this.tbNewPass.MaxLength = 32767;
             this.tbNewPass.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbNewPass.Modified = false;
@@ -349,88 +355,11 @@
             this.tbNewPass.WordWrap = true;
             this.tbNewPass.TextChanged += new System.EventHandler(this.tbNewPass_TextChanged);
             // 
-            // tbCurrPass
-            // 
-            this.tbCurrPass.AcceptsReturn = false;
-            this.tbCurrPass.AcceptsTab = false;
-            this.tbCurrPass.AnimationSpeed = 200;
-            this.tbCurrPass.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.tbCurrPass.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.tbCurrPass.AutoSizeHeight = true;
-            this.tbCurrPass.BackColor = System.Drawing.Color.Transparent;
-            this.tbCurrPass.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbCurrPass.BackgroundImage")));
-            this.tbCurrPass.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.tbCurrPass.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.tbCurrPass.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.tbCurrPass.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbCurrPass.BorderRadius = 10;
-            this.tbCurrPass.BorderThickness = 1;
-            this.tbCurrPass.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.tbCurrPass.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tbCurrPass.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbCurrPass.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.tbCurrPass.DefaultText = "";
-            this.tbCurrPass.FillColor = System.Drawing.Color.White;
-            this.tbCurrPass.HideSelection = true;
-            this.tbCurrPass.IconLeft = null;
-            this.tbCurrPass.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbCurrPass.IconPadding = 10;
-            this.tbCurrPass.IconRight = null;
-            this.tbCurrPass.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbCurrPass.Lines = new string[0];
-            this.tbCurrPass.Location = new System.Drawing.Point(35, 96);
-            this.tbCurrPass.MaxLength = 32767;
-            this.tbCurrPass.MinimumSize = new System.Drawing.Size(1, 1);
-            this.tbCurrPass.Modified = false;
-            this.tbCurrPass.Multiline = false;
-            this.tbCurrPass.Name = "tbCurrPass";
-            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbCurrPass.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.tbCurrPass.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbCurrPass.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbCurrPass.OnIdleState = stateProperties12;
-            this.tbCurrPass.Padding = new System.Windows.Forms.Padding(3);
-            this.tbCurrPass.PasswordChar = '*';
-            this.tbCurrPass.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tbCurrPass.PlaceholderText = "Enter text";
-            this.tbCurrPass.ReadOnly = false;
-            this.tbCurrPass.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbCurrPass.SelectedText = "";
-            this.tbCurrPass.SelectionLength = 0;
-            this.tbCurrPass.SelectionStart = 0;
-            this.tbCurrPass.ShortcutsEnabled = true;
-            this.tbCurrPass.Size = new System.Drawing.Size(382, 35);
-            this.tbCurrPass.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbCurrPass.TabIndex = 7;
-            this.tbCurrPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbCurrPass.TextMarginBottom = 0;
-            this.tbCurrPass.TextMarginLeft = 3;
-            this.tbCurrPass.TextMarginTop = 1;
-            this.tbCurrPass.TextPlaceholder = "Enter text";
-            this.tbCurrPass.UseSystemPasswordChar = false;
-            this.tbCurrPass.WordWrap = true;
-            this.tbCurrPass.TextChanged += new System.EventHandler(this.tbCurrPass_TextChanged);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 225);
+            this.label3.Location = new System.Drawing.Point(32, 187);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 17);
             this.label3.TabIndex = 6;
@@ -440,21 +369,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 145);
+            this.label2.Location = new System.Drawing.Point(32, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "New Password";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(32, 77);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Current Password";
             // 
             // btnReturn
             // 
@@ -481,7 +400,7 @@
             this.btnReturn.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnReturn.Image = null;
             this.btnReturn.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.btnReturn.Location = new System.Drawing.Point(3, 3);
+            this.btnReturn.Location = new System.Drawing.Point(5, 5);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.RoundBorders = false;
             this.btnReturn.ShowBorders = true;
@@ -525,7 +444,7 @@
             this.Eye2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Eye2.Image = null;
             this.Eye2.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye2.Location = new System.Drawing.Point(423, 175);
+            this.Eye2.Location = new System.Drawing.Point(423, 124);
             this.Eye2.Name = "Eye2";
             this.Eye2.RoundBorders = true;
             this.Eye2.ShowBorders = true;
@@ -559,7 +478,7 @@
             this.Eye3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Eye3.Image = null;
             this.Eye3.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye3.Location = new System.Drawing.Point(423, 255);
+            this.Eye3.Location = new System.Drawing.Point(423, 222);
             this.Eye3.Name = "Eye3";
             this.Eye3.RoundBorders = true;
             this.Eye3.ShowBorders = true;
@@ -593,7 +512,7 @@
             this.Hidden2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Hidden2.Image = null;
             this.Hidden2.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Hidden2.Location = new System.Drawing.Point(423, 175);
+            this.Hidden2.Location = new System.Drawing.Point(423, 125);
             this.Hidden2.Name = "Hidden2";
             this.Hidden2.RoundBorders = true;
             this.Hidden2.ShowBorders = true;
@@ -627,7 +546,7 @@
             this.Hidden3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Hidden3.Image = null;
             this.Hidden3.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Hidden3.Location = new System.Drawing.Point(423, 255);
+            this.Hidden3.Location = new System.Drawing.Point(423, 223);
             this.Hidden3.Name = "Hidden3";
             this.Hidden3.RoundBorders = true;
             this.Hidden3.ShowBorders = true;
@@ -636,110 +555,8 @@
             this.Hidden3.TabIndex = 33;
             this.Hidden3.Click += new System.EventHandler(this.Hidden3_Click);
             // 
-            // Eye1
+            // changePass_forgot
             // 
-            this.Eye1.AllowAnimations = true;
-            this.Eye1.AllowBorderColorChanges = true;
-            this.Eye1.AllowMouseEffects = true;
-            this.Eye1.AnimationSpeed = 200;
-            this.Eye1.BackColor = System.Drawing.Color.Transparent;
-            this.Eye1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Eye1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye1.BackgroundImage")));
-            this.Eye1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Eye1.BorderColor = System.Drawing.Color.Transparent;
-            this.Eye1.BorderRadius = 1;
-            this.Eye1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Eye1.BorderThickness = 1;
-            this.Eye1.ColorContrastOnClick = 30;
-            this.Eye1.ColorContrastOnHover = 30;
-            this.Eye1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.Eye1.CustomizableEdges = borderEdges7;
-            this.Eye1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Eye1.Image = null;
-            this.Eye1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye1.Location = new System.Drawing.Point(423, 102);
-            this.Eye1.Name = "Eye1";
-            this.Eye1.RoundBorders = true;
-            this.Eye1.ShowBorders = true;
-            this.Eye1.Size = new System.Drawing.Size(24, 24);
-            this.Eye1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Eye1.TabIndex = 36;
-            this.Eye1.Click += new System.EventHandler(this.Eye1_Click);
-            // 
-            // Hidden1
-            // 
-            this.Hidden1.AllowAnimations = true;
-            this.Hidden1.AllowBorderColorChanges = true;
-            this.Hidden1.AllowMouseEffects = true;
-            this.Hidden1.AnimationSpeed = 200;
-            this.Hidden1.BackColor = System.Drawing.Color.Transparent;
-            this.Hidden1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Hidden1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden1.BackgroundImage")));
-            this.Hidden1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Hidden1.BorderColor = System.Drawing.Color.Transparent;
-            this.Hidden1.BorderRadius = 1;
-            this.Hidden1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Hidden1.BorderThickness = 1;
-            this.Hidden1.ColorContrastOnClick = 30;
-            this.Hidden1.ColorContrastOnHover = 30;
-            this.Hidden1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.Hidden1.CustomizableEdges = borderEdges8;
-            this.Hidden1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Hidden1.Image = null;
-            this.Hidden1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Hidden1.Location = new System.Drawing.Point(423, 102);
-            this.Hidden1.Name = "Hidden1";
-            this.Hidden1.RoundBorders = true;
-            this.Hidden1.ShowBorders = true;
-            this.Hidden1.Size = new System.Drawing.Size(24, 24);
-            this.Hidden1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Hidden1.TabIndex = 31;
-            this.Hidden1.Click += new System.EventHandler(this.Hidden1_Click);
-            // 
-            // lb1
-            // 
-            this.lb1.AutoSize = true;
-            this.lb1.BackColor = System.Drawing.SystemColors.Control;
-            this.lb1.ForeColor = System.Drawing.Color.Red;
-            this.lb1.Location = new System.Drawing.Point(17, 110);
-            this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(12, 16);
-            this.lb1.TabIndex = 37;
-            this.lb1.Text = "*";
-            // 
-            // lb2
-            // 
-            this.lb2.AutoSize = true;
-            this.lb2.BackColor = System.Drawing.SystemColors.Control;
-            this.lb2.ForeColor = System.Drawing.Color.Red;
-            this.lb2.Location = new System.Drawing.Point(17, 175);
-            this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(12, 16);
-            this.lb2.TabIndex = 38;
-            this.lb2.Text = "*";
-            // 
-            // lb3
-            // 
-            this.lb3.AutoSize = true;
-            this.lb3.BackColor = System.Drawing.SystemColors.Control;
-            this.lb3.ForeColor = System.Drawing.Color.Red;
-            this.lb3.Location = new System.Drawing.Point(17, 255);
-            this.lb3.Name = "lb3";
-            this.lb3.Size = new System.Drawing.Size(12, 16);
-            this.lb3.TabIndex = 39;
-            this.lb3.Text = "*";
-            // 
-            // ChangePass
-            // 
-            this.AcceptButton = this.btnConfirm;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
@@ -747,9 +564,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bunifuPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "ChangePass";
+            this.Name = "changePass_forgot";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Flat Service";
+            this.Text = "Flat service";
+            this.Load += new System.EventHandler(this.changePass_forgot_Load);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -759,22 +577,17 @@
         #endregion
 
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
-        private System.Windows.Forms.Label lbChangePass;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btnReturn;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnConfirm;
         private Bunifu.UI.WinForms.BunifuTextBox tbConfirmNew;
         private Bunifu.UI.WinForms.BunifuTextBox tbNewPass;
-        private Bunifu.UI.WinForms.BunifuTextBox tbCurrPass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnConfirm;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Hidden3;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Hidden2;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Hidden1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Eye1;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btnReturn;
+        private System.Windows.Forms.Label lbChangePass;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Eye2;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Eye3;
-        private System.Windows.Forms.Label lb3;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Hidden2;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Hidden3;
         private System.Windows.Forms.Label lb2;
         private System.Windows.Forms.Label lb1;
     }

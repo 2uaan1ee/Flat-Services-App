@@ -78,12 +78,18 @@
     <Compile Include="ChangePass.Designer.cs">
       <DependentUpon>ChangePass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data.cs" />
-    <Compile Include="ForgorPass.cs">
+    <Compile Include="changePass_forgot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ForgorPass.Designer.cs">
-      <DependentUpon>ForgorPass.cs</DependentUpon>
+    <Compile Include="changePass_forgot.Designer.cs">
+      <DependentUpon>changePass_forgot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="ForgotPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPass.Designer.cs">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -102,8 +108,11 @@
     <EmbeddedResource Include="ChangePass.resx">
       <DependentUpon>ChangePass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ForgorPass.resx">
-      <DependentUpon>ForgorPass.cs</DependentUpon>
+    <EmbeddedResource Include="changePass_forgot.resx">
+      <DependentUpon>changePass_forgot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPass.resx">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

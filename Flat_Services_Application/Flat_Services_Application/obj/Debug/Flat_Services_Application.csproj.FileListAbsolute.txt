@@ -57,7 +57,6 @@ Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Service
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.App.config
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.AssemblyReference.cache
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ChangePass.resources
-Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ForgorPass.resources
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Login.resources
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Properties.Resources.resources
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Sign_up.resources
@@ -67,3 +66,5 @@ Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Service
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Ser.BB17834D.Up2Date
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.changePass_forgot.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ForgotPass.resources

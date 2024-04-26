@@ -29,7 +29,7 @@ namespace Flat_Services_Application
         {
             InitializeComponent();
         }
-
+        
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
 
@@ -48,11 +48,55 @@ namespace Flat_Services_Application
                 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private async void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            ForgorPass forgorPass = new ForgorPass();
-            forgorPass.Show();  
+            if (tbPhoneNumber.Text == "")
+                return;
+            if(!rdbtnLessor.Checked && !rdbtnTenant.Checked )
+            {
+                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if(rdbtnLessor.Checked)
+            {
+                FirebaseResponse Response = await client.GetAsync("Account Lessor/" + tbPhoneNumber.Text);
+                if (Response.Body == "null")
+                {
+                    lbps1.Text = "Account is not existed";
+                    lbps1.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps1.Text = "";
+                    this.Hide();
+                    ForgotPass forgotPass = new ForgotPass(tbPhoneNumber.Text);
+                    forgotPass.Show();
+                   
+                }
+            }
+               
+            if(rdbtnTenant.Checked)
+            {
+                FirebaseResponse Response = await client.GetAsync("Account Tenant/" + tbPhoneNumber.Text);
+                if (Response.Body == "null")
+                {
+                    lbps1.Text = "Account is not existed";
+                    lbps1.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps1.Text = "";
+                    this.Hide();
+                    ForgotPass forgotPass = new ForgotPass(tbPhoneNumber.Text);
+                    forgotPass.Show();
+                   
+                }
+            }
+               
+             
+            
         }
 
         public bool IsNumberPhone(string a)
@@ -69,9 +113,14 @@ namespace Flat_Services_Application
         
         private async void btnLogin_Click(object sender, EventArgs e)
         {
-            if(tbPhoneNumber.Text == "" || !IsNumberPhone(tbPhoneNumber.Text))
+            if (!rdbtnLessor.Checked && !rdbtnTenant.Checked)
             {
-                lbps1.Text = "!";
+                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (tbPhoneNumber.Text == "" || !IsNumberPhone(tbPhoneNumber.Text))
+            {
+                lbps1.Text = "*";
                 lbps1.ForeColor = Color.Red;
                 return;
             }
@@ -83,11 +132,7 @@ namespace Flat_Services_Application
             }
             
             
-            if(!rdbtnLessor.Checked && !rdbtnTenant.Checked)
-            {
-                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            
 
             if(rdbtnTenant.Checked)
             {
