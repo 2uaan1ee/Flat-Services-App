@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChangePass));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -49,13 +43,13 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.Eye1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Eye2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Eye3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Hidden3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Hidden2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.Hidden1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.btnConfirm = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.tbConfirmNew = new Bunifu.UI.WinForms.BunifuTextBox();
             this.tbNewPass = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -65,6 +59,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnReturn = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.lbChangePass = new System.Windows.Forms.Label();
+            this.Eye1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.Eye2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.Eye3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.Hidden1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.Hidden2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.Hidden3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,221 +85,17 @@
             this.bunifuPanel1.Controls.Add(this.label1);
             this.bunifuPanel1.Controls.Add(this.btnReturn);
             this.bunifuPanel1.Controls.Add(this.lbChangePass);
-            this.bunifuPanel1.Controls.Add(this.Eye1);
             this.bunifuPanel1.Controls.Add(this.Eye2);
             this.bunifuPanel1.Controls.Add(this.Eye3);
-            this.bunifuPanel1.Controls.Add(this.Hidden1);
             this.bunifuPanel1.Controls.Add(this.Hidden2);
             this.bunifuPanel1.Controls.Add(this.Hidden3);
+            this.bunifuPanel1.Controls.Add(this.Eye1);
+            this.bunifuPanel1.Controls.Add(this.Hidden1);
             this.bunifuPanel1.Location = new System.Drawing.Point(177, 47);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(476, 360);
             this.bunifuPanel1.TabIndex = 0;
-            // 
-            // Eye1
-            // 
-            this.Eye1.AllowAnimations = true;
-            this.Eye1.AllowBorderColorChanges = true;
-            this.Eye1.AllowMouseEffects = true;
-            this.Eye1.AnimationSpeed = 200;
-            this.Eye1.BackColor = System.Drawing.Color.Transparent;
-            this.Eye1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Eye1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye1.BackgroundImage")));
-            this.Eye1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Eye1.BorderColor = System.Drawing.Color.Transparent;
-            this.Eye1.BorderRadius = 1;
-            this.Eye1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Eye1.BorderThickness = 1;
-            this.Eye1.ColorContrastOnClick = 30;
-            this.Eye1.ColorContrastOnHover = 30;
-            this.Eye1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.Eye1.CustomizableEdges = borderEdges3;
-            this.Eye1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Eye1.Image = null;
-            this.Eye1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye1.Location = new System.Drawing.Point(423, 107);
-            this.Eye1.Name = "Eye1";
-            this.Eye1.RoundBorders = true;
-            this.Eye1.ShowBorders = true;
-            this.Eye1.Size = new System.Drawing.Size(24, 24);
-            this.Eye1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Eye1.TabIndex = 36;
-            this.Eye1.Click += new System.EventHandler(this.Eye1_Click);
-            // 
-            // Eye2
-            // 
-            this.Eye2.AllowAnimations = true;
-            this.Eye2.AllowBorderColorChanges = true;
-            this.Eye2.AllowMouseEffects = true;
-            this.Eye2.AnimationSpeed = 200;
-            this.Eye2.BackColor = System.Drawing.Color.Transparent;
-            this.Eye2.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Eye2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye2.BackgroundImage")));
-            this.Eye2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Eye2.BorderColor = System.Drawing.Color.Transparent;
-            this.Eye2.BorderRadius = 1;
-            this.Eye2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Eye2.BorderThickness = 1;
-            this.Eye2.ColorContrastOnClick = 30;
-            this.Eye2.ColorContrastOnHover = 30;
-            this.Eye2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.Eye2.CustomizableEdges = borderEdges4;
-            this.Eye2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Eye2.Image = null;
-            this.Eye2.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye2.Location = new System.Drawing.Point(423, 175);
-            this.Eye2.Name = "Eye2";
-            this.Eye2.RoundBorders = true;
-            this.Eye2.ShowBorders = true;
-            this.Eye2.Size = new System.Drawing.Size(24, 24);
-            this.Eye2.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Eye2.TabIndex = 35;
-            this.Eye2.Click += new System.EventHandler(this.Eye2_Click);
-            // 
-            // Eye3
-            // 
-            this.Eye3.AllowAnimations = true;
-            this.Eye3.AllowBorderColorChanges = true;
-            this.Eye3.AllowMouseEffects = true;
-            this.Eye3.AnimationSpeed = 200;
-            this.Eye3.BackColor = System.Drawing.Color.Transparent;
-            this.Eye3.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Eye3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye3.BackgroundImage")));
-            this.Eye3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Eye3.BorderColor = System.Drawing.Color.Transparent;
-            this.Eye3.BorderRadius = 1;
-            this.Eye3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Eye3.BorderThickness = 1;
-            this.Eye3.ColorContrastOnClick = 30;
-            this.Eye3.ColorContrastOnHover = 30;
-            this.Eye3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.Eye3.CustomizableEdges = borderEdges5;
-            this.Eye3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Eye3.Image = null;
-            this.Eye3.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Eye3.Location = new System.Drawing.Point(423, 255);
-            this.Eye3.Name = "Eye3";
-            this.Eye3.RoundBorders = true;
-            this.Eye3.ShowBorders = true;
-            this.Eye3.Size = new System.Drawing.Size(24, 24);
-            this.Eye3.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Eye3.TabIndex = 34;
-            this.Eye3.Click += new System.EventHandler(this.Eye3_Click);
-            // 
-            // Hidden3
-            // 
-            this.Hidden3.AllowAnimations = true;
-            this.Hidden3.AllowBorderColorChanges = true;
-            this.Hidden3.AllowMouseEffects = true;
-            this.Hidden3.AnimationSpeed = 200;
-            this.Hidden3.BackColor = System.Drawing.Color.Transparent;
-            this.Hidden3.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Hidden3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden3.BackgroundImage")));
-            this.Hidden3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Hidden3.BorderColor = System.Drawing.Color.Transparent;
-            this.Hidden3.BorderRadius = 1;
-            this.Hidden3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Hidden3.BorderThickness = 1;
-            this.Hidden3.ColorContrastOnClick = 30;
-            this.Hidden3.ColorContrastOnHover = 30;
-            this.Hidden3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.Hidden3.CustomizableEdges = borderEdges8;
-            this.Hidden3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Hidden3.Image = null;
-            this.Hidden3.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Hidden3.Location = new System.Drawing.Point(423, 255);
-            this.Hidden3.Name = "Hidden3";
-            this.Hidden3.RoundBorders = true;
-            this.Hidden3.ShowBorders = true;
-            this.Hidden3.Size = new System.Drawing.Size(24, 24);
-            this.Hidden3.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Hidden3.TabIndex = 33;
-            this.Hidden3.Click += new System.EventHandler(this.Hidden3_Click);
-            // 
-            // Hidden2
-            // 
-            this.Hidden2.AllowAnimations = true;
-            this.Hidden2.AllowBorderColorChanges = true;
-            this.Hidden2.AllowMouseEffects = true;
-            this.Hidden2.AnimationSpeed = 200;
-            this.Hidden2.BackColor = System.Drawing.Color.Transparent;
-            this.Hidden2.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Hidden2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden2.BackgroundImage")));
-            this.Hidden2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Hidden2.BorderColor = System.Drawing.Color.Transparent;
-            this.Hidden2.BorderRadius = 1;
-            this.Hidden2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Hidden2.BorderThickness = 1;
-            this.Hidden2.ColorContrastOnClick = 30;
-            this.Hidden2.ColorContrastOnHover = 30;
-            this.Hidden2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.Hidden2.CustomizableEdges = borderEdges7;
-            this.Hidden2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Hidden2.Image = null;
-            this.Hidden2.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Hidden2.Location = new System.Drawing.Point(423, 175);
-            this.Hidden2.Name = "Hidden2";
-            this.Hidden2.RoundBorders = true;
-            this.Hidden2.ShowBorders = true;
-            this.Hidden2.Size = new System.Drawing.Size(24, 24);
-            this.Hidden2.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Hidden2.TabIndex = 32;
-            this.Hidden2.Click += new System.EventHandler(this.Hidden2_Click);
-            // 
-            // Hidden1
-            // 
-            this.Hidden1.AllowAnimations = true;
-            this.Hidden1.AllowBorderColorChanges = true;
-            this.Hidden1.AllowMouseEffects = true;
-            this.Hidden1.AnimationSpeed = 200;
-            this.Hidden1.BackColor = System.Drawing.Color.Transparent;
-            this.Hidden1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.Hidden1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden1.BackgroundImage")));
-            this.Hidden1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Hidden1.BorderColor = System.Drawing.Color.Transparent;
-            this.Hidden1.BorderRadius = 1;
-            this.Hidden1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.Hidden1.BorderThickness = 1;
-            this.Hidden1.ColorContrastOnClick = 30;
-            this.Hidden1.ColorContrastOnHover = 30;
-            this.Hidden1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.Hidden1.CustomizableEdges = borderEdges6;
-            this.Hidden1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Hidden1.Image = null;
-            this.Hidden1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Hidden1.Location = new System.Drawing.Point(423, 107);
-            this.Hidden1.Name = "Hidden1";
-            this.Hidden1.RoundBorders = true;
-            this.Hidden1.ShowBorders = true;
-            this.Hidden1.Size = new System.Drawing.Size(24, 24);
-            this.Hidden1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.Hidden1.TabIndex = 31;
-            this.Hidden1.Click += new System.EventHandler(this.Hidden1_Click);
             // 
             // btnConfirm
             // 
@@ -407,7 +203,7 @@
             this.tbConfirmNew.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.tbConfirmNew.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.tbConfirmNew.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbConfirmNew.BorderRadius = 1;
+            this.tbConfirmNew.BorderRadius = 10;
             this.tbConfirmNew.BorderThickness = 1;
             this.tbConfirmNew.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
             this.tbConfirmNew.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
@@ -483,7 +279,7 @@
             this.tbNewPass.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.tbNewPass.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.tbNewPass.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbNewPass.BorderRadius = 1;
+            this.tbNewPass.BorderRadius = 10;
             this.tbNewPass.BorderThickness = 1;
             this.tbNewPass.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
             this.tbNewPass.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
@@ -544,6 +340,7 @@
             this.tbNewPass.TextPlaceholder = "Enter text";
             this.tbNewPass.UseSystemPasswordChar = false;
             this.tbNewPass.WordWrap = true;
+            this.tbNewPass.TextChanged += new System.EventHandler(this.tbNewPass_TextChanged);
             // 
             // tbCurrPass
             // 
@@ -559,7 +356,7 @@
             this.tbCurrPass.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.tbCurrPass.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.tbCurrPass.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbCurrPass.BorderRadius = 1;
+            this.tbCurrPass.BorderRadius = 10;
             this.tbCurrPass.BorderThickness = 1;
             this.tbCurrPass.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
             this.tbCurrPass.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
@@ -693,6 +490,210 @@
             this.lbChangePass.Size = new System.Drawing.Size(228, 32);
             this.lbChangePass.TabIndex = 2;
             this.lbChangePass.Text = "Change Password";
+            // 
+            // Eye1
+            // 
+            this.Eye1.AllowAnimations = true;
+            this.Eye1.AllowBorderColorChanges = true;
+            this.Eye1.AllowMouseEffects = true;
+            this.Eye1.AnimationSpeed = 200;
+            this.Eye1.BackColor = System.Drawing.Color.Transparent;
+            this.Eye1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.Eye1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye1.BackgroundImage")));
+            this.Eye1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Eye1.BorderColor = System.Drawing.Color.Transparent;
+            this.Eye1.BorderRadius = 1;
+            this.Eye1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.Eye1.BorderThickness = 1;
+            this.Eye1.ColorContrastOnClick = 30;
+            this.Eye1.ColorContrastOnHover = 30;
+            this.Eye1.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.Eye1.CustomizableEdges = borderEdges7;
+            this.Eye1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Eye1.Image = null;
+            this.Eye1.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.Eye1.Location = new System.Drawing.Point(423, 102);
+            this.Eye1.Name = "Eye1";
+            this.Eye1.RoundBorders = true;
+            this.Eye1.ShowBorders = true;
+            this.Eye1.Size = new System.Drawing.Size(24, 24);
+            this.Eye1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.Eye1.TabIndex = 36;
+            this.Eye1.Click += new System.EventHandler(this.Eye1_Click);
+            // 
+            // Eye2
+            // 
+            this.Eye2.AllowAnimations = true;
+            this.Eye2.AllowBorderColorChanges = true;
+            this.Eye2.AllowMouseEffects = true;
+            this.Eye2.AnimationSpeed = 200;
+            this.Eye2.BackColor = System.Drawing.Color.Transparent;
+            this.Eye2.BackgroundColor = System.Drawing.Color.Transparent;
+            this.Eye2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye2.BackgroundImage")));
+            this.Eye2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Eye2.BorderColor = System.Drawing.Color.Transparent;
+            this.Eye2.BorderRadius = 1;
+            this.Eye2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.Eye2.BorderThickness = 1;
+            this.Eye2.ColorContrastOnClick = 30;
+            this.Eye2.ColorContrastOnHover = 30;
+            this.Eye2.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.Eye2.CustomizableEdges = borderEdges3;
+            this.Eye2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Eye2.Image = null;
+            this.Eye2.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.Eye2.Location = new System.Drawing.Point(423, 175);
+            this.Eye2.Name = "Eye2";
+            this.Eye2.RoundBorders = true;
+            this.Eye2.ShowBorders = true;
+            this.Eye2.Size = new System.Drawing.Size(24, 24);
+            this.Eye2.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.Eye2.TabIndex = 35;
+            this.Eye2.Click += new System.EventHandler(this.Eye2_Click);
+            // 
+            // Eye3
+            // 
+            this.Eye3.AllowAnimations = true;
+            this.Eye3.AllowBorderColorChanges = true;
+            this.Eye3.AllowMouseEffects = true;
+            this.Eye3.AnimationSpeed = 200;
+            this.Eye3.BackColor = System.Drawing.Color.Transparent;
+            this.Eye3.BackgroundColor = System.Drawing.Color.Transparent;
+            this.Eye3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eye3.BackgroundImage")));
+            this.Eye3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Eye3.BorderColor = System.Drawing.Color.Transparent;
+            this.Eye3.BorderRadius = 1;
+            this.Eye3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.Eye3.BorderThickness = 1;
+            this.Eye3.ColorContrastOnClick = 30;
+            this.Eye3.ColorContrastOnHover = 30;
+            this.Eye3.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.Eye3.CustomizableEdges = borderEdges4;
+            this.Eye3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Eye3.Image = null;
+            this.Eye3.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.Eye3.Location = new System.Drawing.Point(423, 255);
+            this.Eye3.Name = "Eye3";
+            this.Eye3.RoundBorders = true;
+            this.Eye3.ShowBorders = true;
+            this.Eye3.Size = new System.Drawing.Size(24, 24);
+            this.Eye3.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.Eye3.TabIndex = 34;
+            this.Eye3.Click += new System.EventHandler(this.Eye3_Click);
+            // 
+            // Hidden1
+            // 
+            this.Hidden1.AllowAnimations = true;
+            this.Hidden1.AllowBorderColorChanges = true;
+            this.Hidden1.AllowMouseEffects = true;
+            this.Hidden1.AnimationSpeed = 200;
+            this.Hidden1.BackColor = System.Drawing.Color.Transparent;
+            this.Hidden1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.Hidden1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden1.BackgroundImage")));
+            this.Hidden1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Hidden1.BorderColor = System.Drawing.Color.Transparent;
+            this.Hidden1.BorderRadius = 1;
+            this.Hidden1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.Hidden1.BorderThickness = 1;
+            this.Hidden1.ColorContrastOnClick = 30;
+            this.Hidden1.ColorContrastOnHover = 30;
+            this.Hidden1.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.Hidden1.CustomizableEdges = borderEdges8;
+            this.Hidden1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Hidden1.Image = null;
+            this.Hidden1.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.Hidden1.Location = new System.Drawing.Point(423, 102);
+            this.Hidden1.Name = "Hidden1";
+            this.Hidden1.RoundBorders = true;
+            this.Hidden1.ShowBorders = true;
+            this.Hidden1.Size = new System.Drawing.Size(24, 24);
+            this.Hidden1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.Hidden1.TabIndex = 31;
+            this.Hidden1.Click += new System.EventHandler(this.Hidden1_Click);
+            // 
+            // Hidden2
+            // 
+            this.Hidden2.AllowAnimations = true;
+            this.Hidden2.AllowBorderColorChanges = true;
+            this.Hidden2.AllowMouseEffects = true;
+            this.Hidden2.AnimationSpeed = 200;
+            this.Hidden2.BackColor = System.Drawing.Color.Transparent;
+            this.Hidden2.BackgroundColor = System.Drawing.Color.Transparent;
+            this.Hidden2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden2.BackgroundImage")));
+            this.Hidden2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Hidden2.BorderColor = System.Drawing.Color.Transparent;
+            this.Hidden2.BorderRadius = 1;
+            this.Hidden2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.Hidden2.BorderThickness = 1;
+            this.Hidden2.ColorContrastOnClick = 30;
+            this.Hidden2.ColorContrastOnHover = 30;
+            this.Hidden2.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.Hidden2.CustomizableEdges = borderEdges5;
+            this.Hidden2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Hidden2.Image = null;
+            this.Hidden2.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.Hidden2.Location = new System.Drawing.Point(423, 175);
+            this.Hidden2.Name = "Hidden2";
+            this.Hidden2.RoundBorders = true;
+            this.Hidden2.ShowBorders = true;
+            this.Hidden2.Size = new System.Drawing.Size(24, 24);
+            this.Hidden2.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.Hidden2.TabIndex = 32;
+            this.Hidden2.Click += new System.EventHandler(this.Hidden2_Click);
+            // 
+            // Hidden3
+            // 
+            this.Hidden3.AllowAnimations = true;
+            this.Hidden3.AllowBorderColorChanges = true;
+            this.Hidden3.AllowMouseEffects = true;
+            this.Hidden3.AnimationSpeed = 200;
+            this.Hidden3.BackColor = System.Drawing.Color.Transparent;
+            this.Hidden3.BackgroundColor = System.Drawing.Color.Transparent;
+            this.Hidden3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Hidden3.BackgroundImage")));
+            this.Hidden3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Hidden3.BorderColor = System.Drawing.Color.Transparent;
+            this.Hidden3.BorderRadius = 1;
+            this.Hidden3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.Hidden3.BorderThickness = 1;
+            this.Hidden3.ColorContrastOnClick = 30;
+            this.Hidden3.ColorContrastOnHover = 30;
+            this.Hidden3.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.Hidden3.CustomizableEdges = borderEdges6;
+            this.Hidden3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Hidden3.Image = null;
+            this.Hidden3.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.Hidden3.Location = new System.Drawing.Point(423, 255);
+            this.Hidden3.Name = "Hidden3";
+            this.Hidden3.RoundBorders = true;
+            this.Hidden3.ShowBorders = true;
+            this.Hidden3.Size = new System.Drawing.Size(24, 24);
+            this.Hidden3.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.Hidden3.TabIndex = 33;
+            this.Hidden3.Click += new System.EventHandler(this.Hidden3_Click);
             // 
             // ChangePass
             // 

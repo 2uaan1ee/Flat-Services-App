@@ -80,5 +80,10 @@ namespace Flat_Services_Application
             tbConfirmNew.PasswordChar = '\0';
             Eye3.SendToBack();
         }
+
+        private void tbNewPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -20,8 +20,8 @@ namespace Flat_Services_Application
     {
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "D0RY9gVopnprZmIUstSVe4A68zm3Pi4t6MCzZVmM",
-            BasePath = "https://account-d1e19-default-rtdb.firebaseio.com/"
+            AuthSecret = "KR5gPtgHXbYV0t9jMOeKDN3UvRaXulbgAD4aijeN",
+            BasePath = "https://account-ac0cc-default-rtdb.firebaseio.com/"
         };
         IFirebaseClient client;
         public Sign_up()
@@ -32,52 +32,96 @@ namespace Flat_Services_Application
         private void bunifuIconButton1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            _login l = new _login();
+            Login l = new Login();
             l.Show();
         }
-
+       
         private async void btnSign_up_Click(object sender, EventArgs e)
         {
-            if(tbEmail.Text == "" || tbName.Text == "" || tbPass.Text == "" || tbconfirmPass.Text == "" || tbPhone.Text =="" || tbID.Text =="" || tbDate.Text=="")
-            {
-                MessageBox.Show("Data isn't valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }    
-            if(!IsEmail(tbEmail.Text.Trim()))
-            {
-                MessageBox.Show("Email isn't valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if(!IsPass(tbPass.Text))
-            {
-                MessageBox.Show("Length of password must be longger than 8 chars!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if(tbconfirmPass.Text != tbPass.Text)
-            {
-                MessageBox.Show("Password confirmed must be equal password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if(!IsNumberPhone(tbPhone.Text.Trim()))
-            {
-                MessageBox.Show("Number phone is not valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if(tbID.Text.Length != 12)
-            {
-                MessageBox.Show("ID code is not valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if(!IsDate(tbDate.Text.Trim()))
-            {
-                MessageBox.Show("Date of birth is not valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if(!cbTerm.Checked)
+            if (!cbTerm.Checked)
             {
                 MessageBox.Show("Please accept our term!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
+            if (tbName.Text == "")
+            {
+                lb1.Text = "!";
+                lb1.ForeColor = Color.Red;
+                return;
+            }
+            else lb1.Text = "";
+
+            if (!IsEmail(tbEmail.Text.Trim()) || tbEmail.Text == "")
+            {
+                lb2.Text = "!";
+                lb2.ForeColor = Color.Red;
+               return ;
+            }
+            else lb2.Text = "";
+            if (!IsPass(tbPass.Text) || tbPass.Text == "")
+            {
+                lb3.Text = "!";
+                lb3.ForeColor = Color.Red;
+                return;
+            }
+            else lb3.Text = "";
+
+            if (tbconfirmPass.Text != tbPass.Text || tbconfirmPass.Text == "")
+            {
+                lb4.Text = "!";
+                lb4.ForeColor = Color.Red;
+                return;
+            }
+            else
+            {
+                
+                lb4.Text = "";
+            }
+            if(!IsNumberPhone(tbPhone.Text.Trim()) || tbPhone.Text == "")
+            {
+                lb5.Text = "!";
+                lb5.ForeColor = Color.Red;
+                return;
+            }
+            else
+            {
+               
+                lb5.Text = "";
+            }
+            if(tbID.Text.Length != 12 || tbID.Text == "")
+            {
+                lb6.Text = "!";
+                lb6.ForeColor = Color.Red;
+                return;
+            }
+            else
+            {
+                
+                lb6.Text = "";
+            }
+            if(!IsDate(tbDate.Text.Trim()) || tbDate.Text == "")
+            {
+                lb7.Text = "!";
+                lb7.ForeColor = Color.Red;
+                return;
+            }
+            else
+            {
+                
+                lb7.Text = "";
+            }
+            
+            if(cbbObj.Text =="")
+            {
+                lb8.Text = "!";
+                lb8.ForeColor = Color.Red;
+                return;
+            }
+            else
+            { 
+                lb8.Text = "";
+            }
+            
             
             //Them du lieu vao database
             var data = new Data
@@ -88,12 +132,40 @@ namespace Flat_Services_Application
                 phone = tbPhone.Text,
                 ID = tbID.Text,
                 date = tbDate.Text,
-                objects = tbObj.Text,
+                objects = cbbObj.Text,
                 status = 0
             };
-            
-            SetResponse Response = await client.SetAsync("Account Tenant/" + tbPhone.Text, data);
-            Data result = Response.ResultAs<Data>();
+
+            FirebaseResponse respond = await client.GetAsync("Account Lessor/" + tbPhone.Text);
+            if (respond.Body != "null")
+            {
+                MessageBox.Show("This phone number is used!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                FirebaseResponse responds = await client.GetAsync("Account Tenant/" + tbPhone.Text);
+                if (responds.Body != "null")
+                {
+                    MessageBox.Show("This phone number is used!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                else
+                {
+                    lb1.Text = "";
+                }
+            }
+            if (cbbObj.Text == "Tenant")
+            {
+                SetResponse Response = await client.SetAsync("Account Tenant/" + tbPhone.Text, data);
+                Data result = Response.ResultAs<Data>();
+            }
+
+            if (cbbObj.Text == "Lessor")
+            {
+                SetResponse Response = await client.SetAsync("Account Lessor/" + tbPhone.Text, data);
+                Data result = Response.ResultAs<Data>();
+            }
             MessageBox.Show("Sign-up successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             tbEmail.Text = "";
             tbName.Text =   "";
@@ -102,7 +174,8 @@ namespace Flat_Services_Application
             tbPhone.Text = "";
             tbID.Text = "";
             tbDate.Text = "";
-            
+            cbbObj.Text = "";
+            cbTerm.Checked = false;
             //dieu kien de quay lai login
 
         }
@@ -131,7 +204,7 @@ namespace Flat_Services_Application
         {
             for(int i=0; i < a.Length;i++)
             {
-                if (a[i] == ' ' || (a[i] < '0' && a[i] > '9'))
+                if (a[i] == ' ' || (a[i] < '0' || a[i] > '9'))
                     return false;
             }
             if (a.Length < 10 || a.Length >11)
@@ -278,6 +351,100 @@ namespace Flat_Services_Application
 
             if (client == null)
                 MessageBox.Show("Connected isn't Successful!");
+        }
+
+        private void tc1(object sender, EventArgs e)
+        {
+            if (tbName.Text.Length > 0)
+                lb1.Text = "";
+            else
+            {
+                lb1.Text = "*";
+                lb1.ForeColor = Color.Red;
+            }
+              
+        }
+
+        private void tc2(object sender, EventArgs e)
+        {
+            if (tbEmail.Text.Length > 0)
+                lb2.Text = "";
+            else
+            {
+                lb2.Text = "*";
+                lb2.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc3(object sender, EventArgs e)
+        {
+            if (tbPass.Text.Length > 0)
+                lb3.Text = "";
+            else
+            {
+                lb3.Text = "*";
+                lb3.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc4(object sender, EventArgs e)
+        {
+            if (tbconfirmPass.Text.Length > 0)
+                lb4.Text = "";
+            else
+            {
+                lb4.Text = "*";
+                lb4.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc5(object sender, EventArgs e)
+        {
+            if (tbPhone.Text.Length > 0)
+                lb5.Text = "";
+            else
+            {
+                lb5.Text = "*";
+                lb4.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc6(object sender, EventArgs e)
+        {
+            if (tbID.Text.Length > 0)
+                lb6.Text = "";
+            else
+            {
+                lb6.Text = "*";
+                lb6.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc7(object sender, EventArgs e)
+        {
+            if (tbDate.Text.Length > 0)
+                lb7.Text = "";
+            else
+            {
+                lb7.Text = "*";
+                lb7.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc8(object sender, EventArgs e)
+        {
+            if (cbbObj.Text.Length > 0)
+                lb8.Text = "";
+            else
+            {
+                lb8.Text = "*";
+                lb8.ForeColor = Color.Red;
+            }
+        }
+
+        private void bunifuPanel1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
