@@ -8,11 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
+using System.Net.Mail;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using System.Net;
+using System.Xml.Linq;
 
 namespace Flat_Services_Application
 {
     public partial class Login : Form
     {
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "D0RY9gVopnprZmIUstSVe4A68zm3Pi4t6MCzZVmM",
+            BasePath = "https://account-d1e19-default-rtdb.firebaseio.com/"
+        };
+
+        IFirebaseClient client;
         public Login()
         {
             InitializeComponent();
@@ -31,7 +44,7 @@ namespace Flat_Services_Application
         private void llbSign_up_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            Sign_up s = new Sign_up();
+            _sign_up s = new _sign_up();
             s.Show();
                 
         }
@@ -42,36 +55,81 @@ namespace Flat_Services_Application
             ForgorPass forgorPass = new ForgorPass();
             forgorPass.Show();  
         }
-        int flag = 0;
-        private void btnLogin_Click(object sender, EventArgs e)
+
+        public bool IsNumberPhone(string a)
         {
-            if(rdbtnLessor.Checked)
+            for (int i = 0; i < a.Length; i++)
             {
-                flag = 1;
-                MessageBox.Show("Enter Lessor form");
-                Thread th = new Thread(hienthi);
-                th.IsBackground = true;
-                th.Start();
+                if (a[i] == ' ' || (a[i] < '0' && a[i] > '9'))
+                    return false;
             }
-            if (rdbynTenant.Checked)
+            if (a.Length < 10 || a.Length > 11)
+                return false;
+            return true;
+        }
+        
+        private async void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(tbPhoneNumber.Text == "" )
             {
-                flag = 1;
-                MessageBox.Show("Enter Tenant form");
-                Thread th = new Thread(hienthi);
-                th.IsBackground = true;
-                th.Start();
+                MessageBox.Show("Phone number is not valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            if(flag ==0)
+            if(tbPass.Text == "")
             {
-                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                lbps2.Text = "*";
+                lbps2.ForeColor = Color.Red;
+                return;
+            }
+            if(!IsNumberPhone(tbPhoneNumber.Text))
+            {
+                MessageBox.Show("Phone number is not valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }    
+            
+            
+
+            FirebaseResponse Response = await client.GetAsync("Account Tenant/" + tbPhoneNumber.Text);
+            if (Response.Body == "null")
+            {
+                lbps1.Text = "Account is not existed";
+                lbps1.ForeColor = Color.Red;
+                return;
+            }
+            else
+            {
+                lbps1.Text = "";
+                
+            }
+            Data obj = Response.ResultAs<Data>();
+
+            if (cbRemember.Checked)
+            {
+                tbPass.Text = obj.pass;
+                tbPass.PasswordChar = '*';
+            }
+            else
+            {
+                tbPass.PasswordChar = '\0';
+            }
+
+            if (tbPass.Text != obj.pass)
+            {
+                lbps2.Text = "Wrong";
+                lbps2.ForeColor = Color.Red;
+                return;
+            }    
+            else
+            {
+                lbps2.Text = "";
+                
+            }
+
+            MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
         }
-        public void hienthi()
-        {
-            Login login = new Login();  
-            login.Show();
-        }
+       
         private void Eye_Click(object sender, EventArgs e)
         {
             Hidden.BringToFront();
@@ -88,6 +146,64 @@ namespace Flat_Services_Application
         private void cbRemember_CheckedChanged(object sender, EventArgs e)
         {
             
+        }
+       
+
+        private void Login_Load_1(object sender, EventArgs e)
+        {
+            client = new FireSharp.FirebaseClient(config);
+
+            if (client == null)
+                MessageBox.Show("Connected isn't Successful!");
+        }
+
+        private void bunifuLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbps1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void phone_tc(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pass_tc(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void tc_number(object sender, EventArgs e)
+        {
+            if (tbPhoneNumber.Text != "")
+                lbps1.Text = "";
+            else
+            {
+                lbps1.Text = "*";
+                lbps1.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc_pass(object sender, EventArgs e)
+        {
+            if (tbPass.Text != "")
+                lbps2.Text = "";
+            else
+            {
+                lbps2.Text = "*";
+                lbps2.ForeColor = Color.Red;
+            }
+        }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            this.Hide(); 
+            _login l = new _login();
+            l.Show();
         }
     }
 }

@@ -221,7 +221,7 @@
             this.tbPhone.Padding = new System.Windows.Forms.Padding(3);
             this.tbPhone.PasswordChar = '\0';
             this.tbPhone.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tbPhone.PlaceholderText = "Phone";
+            this.tbPhone.PlaceholderText = "ID";
             this.tbPhone.ReadOnly = false;
             this.tbPhone.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.tbPhone.SelectedText = "";
@@ -235,7 +235,7 @@
             this.tbPhone.TextMarginBottom = 0;
             this.tbPhone.TextMarginLeft = 3;
             this.tbPhone.TextMarginTop = 1;
-            this.tbPhone.TextPlaceholder = "Phone";
+            this.tbPhone.TextPlaceholder = "ID";
             this.tbPhone.UseSystemPasswordChar = false;
             this.tbPhone.WordWrap = true;
             // 
@@ -321,9 +321,9 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(55, 194);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 19);
+            this.label3.Size = new System.Drawing.Size(81, 19);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Phone number";
+            this.label3.Text = "ID number";
             // 
             // label2
             // 

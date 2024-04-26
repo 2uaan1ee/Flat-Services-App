@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\",
+  "WorkspaceRootPath": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|q:\\to_cong_quan\\university_documents\\nam 2\\hk2\\laptrinhmang\\new folder\\flat-services-app\\flat_services_application\\flat_services_application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\sign-up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\sign-up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|q:\\to_cong_quan\\university_documents\\nam 2\\hk2\\laptrinhmang\\project\\flat-services-app\\flat_services_application\\flat_services_application\\sign-up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\sign-up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\flat_services_application\\forgorpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\forgorpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|q:\\to_cong_quan\\university_documents\\nam 2\\hk2\\laptrinhmang\\project\\flat-services-app\\flat_services_application\\flat_services_application\\sign-up_l.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\sign-up_l.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Login.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\Login.cs",
-              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Login.cs",
-              "RelativeToolTip": "Flat_Services_Application\\Login.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAwwEMAAAARAAAA",
+              "DocumentIndex": 1,
+              "Title": "Sign-up.cs",
+              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Sign-up.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\Sign-up.cs",
+              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Sign-up.cs",
+              "RelativeToolTip": "Flat_Services_Application\\Sign-up.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAhwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:16:06.768Z",
+              "WhenOpened": "2024-04-26T02:38:18.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sign-up.cs [Design]",
-              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Sign-up.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\Sign-up.cs",
-              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Sign-up.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\Sign-up.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:11:46.926Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ForgorPass.cs [Design]",
-              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ForgorPass.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\ForgorPass.cs",
-              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\ForgorPass.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\ForgorPass.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:47:57.437Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Login.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\Login.cs",
-              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\New folder\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Login.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\Login.cs [Design]",
+              "Title": "sign-up_L.cs",
+              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\sign-up_L.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\sign-up_L.cs",
+              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\sign-up_L.cs",
+              "RelativeToolTip": "Flat_Services_Application\\sign-up_L.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAlwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T15:56:14.508Z"
+              "WhenOpened": "2024-04-26T02:38:15.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Login.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\Login.cs",
+              "ToolTip": "Q:\\TO_CONG_QUAN\\University_Documents\\Nam 2\\HK2\\LapTrinhMang\\Project\\Flat-Services-App\\Flat_Services_Application\\Flat_Services_Application\\Login.cs",
+              "RelativeToolTip": "Flat_Services_Application\\Login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:45:19.096Z",
+              "EditorCaption": ""
             }
           ]
         }

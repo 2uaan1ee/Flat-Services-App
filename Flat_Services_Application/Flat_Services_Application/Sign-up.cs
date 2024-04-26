@@ -9,11 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Mail;
 
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using System.Net;
 
 namespace Flat_Services_Application
 {
     public partial class Sign_up : Form
     {
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "D0RY9gVopnprZmIUstSVe4A68zm3Pi4t6MCzZVmM",
+            BasePath = "https://account-d1e19-default-rtdb.firebaseio.com/"
+        };
+        IFirebaseClient client;
         public Sign_up()
         {
             InitializeComponent();
@@ -22,11 +32,11 @@ namespace Flat_Services_Application
         private void bunifuIconButton1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login l = new Login();
+            _login l = new _login();
             l.Show();
         }
 
-        private void btnSign_up_Click(object sender, EventArgs e)
+        private async void btnSign_up_Click(object sender, EventArgs e)
         {
             if(tbEmail.Text == "" || tbName.Text == "" || tbPass.Text == "" || tbconfirmPass.Text == "" || tbPhone.Text =="" || tbID.Text =="" || tbDate.Text=="")
             {
@@ -68,13 +78,33 @@ namespace Flat_Services_Application
                 MessageBox.Show("Please accept our term!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            MessageBox.Show("Sign-up successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
             //Them du lieu vao database
+            var data = new Data
+            {
+                name = tbName.Text,
+                email = tbEmail.Text,
+                pass = tbPass.Text,
+                phone = tbPhone.Text,
+                ID = tbID.Text,
+                date = tbDate.Text,
+                objects = tbObj.Text,
+                status = 0
+            };
+            
+            SetResponse Response = await client.SetAsync("Account Tenant/" + tbPhone.Text, data);
+            Data result = Response.ResultAs<Data>();
+            MessageBox.Show("Sign-up successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            tbEmail.Text = "";
+            tbName.Text =   "";
+            tbPass.Text = "";
+            tbconfirmPass.Text = "";
+            tbPhone.Text = "";
+            tbID.Text = "";
+            tbDate.Text = "";
             
             //dieu kien de quay lai login
-            this.Hide();
-            Login l = new Login();
-            l.Show();
+
         }
 
         public bool IsEmail(string email)
@@ -101,7 +131,7 @@ namespace Flat_Services_Application
         {
             for(int i=0; i < a.Length;i++)
             {
-                if (a[i] == ' ')
+                if (a[i] == ' ' || (a[i] < '0' && a[i] > '9'))
                     return false;
             }
             if (a.Length < 10 || a.Length >11)
@@ -240,6 +270,14 @@ namespace Flat_Services_Application
         {
             Eye2.BringToFront();
             tbconfirmPass.PasswordChar = '*';
+        }
+
+        private void Sign_up_Load(object sender, EventArgs e)
+        {
+            client = new FireSharp.FirebaseClient(config);
+
+            if (client == null)
+                MessageBox.Show("Connected isn't Successful!");
         }
     }
 }
