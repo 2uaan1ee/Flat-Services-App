@@ -16,7 +16,11 @@ namespace Flat_Services_Application
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new HomeNavigation());
+=======
+            Application.Run(new Login());
+>>>>>>> quan315
         }
     }
 }
