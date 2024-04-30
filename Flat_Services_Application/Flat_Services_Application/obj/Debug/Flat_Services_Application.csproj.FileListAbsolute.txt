@@ -12,3 +12,5 @@ D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Fl
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.TernantChat.resources
 D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.TernantServices.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.test.resources
+D:\ProjectAll\github flatservices\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe.licenses
